@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: interview_questions
+#
+#  id           :integer          not null, primary key
+#  title        :string
+#  description  :string
+#  interview_id :integer
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyString
+  interview_id: 1
+
+two:
+  title: MyString
+  description: MyString
+  interview_id: 1

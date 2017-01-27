@@ -1,0 +1,155 @@
+<div class="page7">
+
+  <div class="row about-container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        <div class="col-md-12 title">
+          About the author
+        </div>
+        <div class="col-md-6">
+          <div class="short-description">
+            <p>
+            If you told me seven years ago that I would pen a recipe website, I would’ve reacted with disbelief. Fresh out of college, my priorities were elsewhere. My social agenda trumped anything else, selecting that perfect event night after night, and of course updating my wardrobe season to season!
+            </p>
+            <p>
+            But through it all, I’ve always had a hidden passion for food. Even at these events I found myself closing my eyes for a split second trying to detect the mystery spice in the sauce or walking by the aisle of specialty salts secretly feeling a pleasant tingle in my gut!
+            </p>
+            <p>
+            Yet, like you ladies out there, my post-graduation world was focused on finding a job that I love, meeting the man of my dreams and looking for my place in this crazy world.
+            </p>
+            <p>
+            I had insane weeks where the pressure of strict work deadlines mixed in with family and social obligations left no time for me, let alone cooking.
+            </p>
+            <p>
+            So what happened? How did a career woman switch into an unyielding foodie? How did this tough social butterfly learn to love Parisian farmers’ markets and age-old spice souks in Damascus as much as parties?
+            </p>
+            <p>
+            In short: Marriage.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="image">
+            <img src="<%= asset_path 'Farah_Sawaf.png' %>"/>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="long-description left">
+            <p>
+            I joined my husband, Said, on a year-long adventure in Barcelona where he was earning his MBA. Having grown tired of Dubai’s breathless lifestyle, I went ahead to what was to be a journey of self-discovery.
+            </p>
+            <p>
+            With tons of free time on my hands, I explored the Catalan pedestrian neighbourhood Said and I called home. No matter where I wandered in the city, I realised that I always found my way to some sort of market for fresh produce.
+            </p>
+            <p>
+            If you don’t know, Barcelona is a food lover’s paradise. From honey to herbs and meat to mussels, exploring a different element of food grew to be an obsession. My husband would come home to find the kitchen an unholy mess — a bizarre mix of spices, all manner of exotic vegetables and whatever cut of meat or crustacean I had encountered that day.
+            </p>
+            <p>
+            I would spend hours in the kitchen essentially playing with food, inhaling the resulting scents and basically figuring out which culinary combos worked well together and which were better left in my head. It was my very own laboratory, inspired by the culinary chemistry of Ferran Adria’s hometown and great raw ingredients.
+            </p>
+            <p>
+            When we left Barcelona for other parts of the world the local market was always my first destination. Eventually, the globetrotting stopped when Said graduated and we both had to dip right into work. He reprised his old position with his family business while I worked in marketing for a recently-launched real estate company.
+            </p>
+            <p>
+            For almost one year I prioritised good money and a crazy lifestyle over my newly-discovered love of food. What saved me, and set me back on my path, was the winds of the global recession. Long story short, I was let go from the luxury company and I had time on my hands to explore where my passion really lied.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="long-description right">
+            <p>
+            I ran back into the kitchen.
+            </p>
+            <p>
+            Back in Barcelona I convinced Said’s MBA group to develop a Cooking School project. Now that I had spare days, I was determined to make the project a reality; researching financing and feasibility. Through good news and bad I found myself back in the kitchen. This time though I found myself in my friends’ kitchens, too. I helped them cook up treats for their dates, families or work colleagues. Be it a cookie or a pizza crust, I suddenly became the go-to-resource of an entire community of young women who like me had lost their way from the kitchen. With a helping hand, they began to realize how fun, therapeutic and easy it can be to cook healthy, sexy cuisine!
+            </p>
+            <p>
+            Were it not for a helping hand from Farooha (yours truly’s nick-name here), they wouldn’t have even considered cooking for themselves and opted for a lousy, lifeless fast-food salad or worse, a bucket of deep-fried chicken.
+            </p>
+            <p>
+            Thus, Cooking with a Manicure was born. That’s how I realized that not only was there a market for this type of website, but that I was just the right girl to pull it off. In short, I’m like you. I like to party. I work hard in my career. And I love to cook. And like any modern woman, I want it all. So, let’s get into the kitchen together, and eat up life.
+            </p>
+            <br/>
+            <br/>
+            <span class="greeting">Happy Cooking,</span>
+            <br/>
+            <br/>
+            <span class="author">Farah Sawaf</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="contact" class="row contact-container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title">
+            Contact
+          </div>
+        </div>
+      </div>
+      <%= form_tag("/contact", method: "post", :id => "contact_form") do %>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="name">FIRST NAME</div>
+            <%= text_field_tag(:first_name,nil, :placeholder => "First Name") %>
+          </div>
+          <div class="col-md-6">
+            <div class="name">LAST NAME</div>
+            <%= text_field_tag(:last_name, nil, :placeholder =>"Last Name") %>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="name">E-MAIL</div>
+            <%= email_field_tag(:email, nil, :placeholder =>"Email") %>
+          </div>
+          <div class="col-md-6">
+            <div class="name">PHONE</div>
+            <%= text_field_tag(:phone_number, nil, :placeholder =>"Phone Number") %>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="name">SUBJECT</div>
+            <%= text_field_tag(:subject, nil, :placeholder =>"Subject") %>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="name">MESSAGE</div>
+            <%= text_area_tag(:message, nil, :placeholder =>"Message") %>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 agreement-container">
+            <%= hidden_field_tag(:newsletter, "0") %>
+            <div
+               class="tickbox"
+               is-newsletter="1"
+               data-img-selected="<%= asset_path "cwam-icons-checkbox-ticked.png" %>"
+               data-img-notselected="<%= asset_path "checkbox" %>"></div>
+            <div class="agreement">
+              Please tick this box should you wish to receive future information related to Farah and her companies, e.g newsletters,
+              product offers etc. We will not make your information available to any third parties.
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 action-container">
+            <%= submit_tag("Submit", :id=> "submit_contact", :class => "invert-button-colors") %>
+          </div>
+        </div>
+
+      <% end %>
+    </div>
+  </div>
+
+</div>

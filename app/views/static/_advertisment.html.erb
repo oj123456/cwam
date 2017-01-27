@@ -1,0 +1,20 @@
+<% if advertisment %>
+  <div class="row blocks-container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="entry entry-left">
+            <a href="<%= advertisment.url %>" title="<%= advertisment.title %>" target="_blank">
+              <img src="<%= advertisment.image.url %>" alt="<%= advertisment.title %>" title="<%= advertisment.title %>" />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="entry entry-right">
+            <img src="<%= left_image %>"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>

@@ -1,0 +1,40 @@
+<%
+  latest_interviews = Interview.limit(2).order(id: :desc)
+  latest_events = Event.limit(2).order(id: :desc)
+%>
+
+<div class="row latest-container">
+  <div class="col-md-10 col-md-offset-1">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="title">Latest News</div>
+      </div>
+    </div>
+    <div class="row entries-container">
+      <% latest_interviews.each do |interview| %>
+        <div class="col-md-3">
+          <a href="<%= interview_detail_path(slug: interview.slug) %>">
+            <div class="entry">
+              <div class="image">
+                <img src="<%= interview.image.url %>"/>
+              </div>
+              <div class="label"><%= interview.title %>:<br /><%= interview.position %></div>
+            </div>
+          </a>
+        </div>
+      <% end %>
+      <% latest_events.each do |event| %>
+        <div class="col-md-3">
+          <a href="<%= news_path %>">
+            <div class="entry">
+              <div class="image">
+                <img src="<%= event.image_2.url %>"/>
+              </div>
+              <div class="label"><%= event.title %><br /><%= event.tag_line %></div>
+            </div>
+          </a>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

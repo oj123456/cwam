@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: recipe_reviews
+#
+#  id         :integer          not null, primary key
+#  user_id    :integer
+#  recipe_id  :integer
+#  rating     :decimal(, )
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  recipe_id: 1
+  rating: 9.99
+
+two:
+  user_id: 1
+  recipe_id: 1
+  rating: 9.99

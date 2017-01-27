@@ -1,0 +1,108 @@
+<div class="page6">
+  <div class="row map-container">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row title">
+            <div class="col-md-12">Restaurants &amp; Shops Locator</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row favourite-container">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="title">
+                Favourite Spots
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="entry">
+                <div class="category">
+                  Restaurants
+                </div>
+                <div class="dropdown-container">
+                  <div class="dropdown">
+                    <div class="label">
+                      Show
+                    </div>
+                    <div class="box">
+                      <select>
+                        <option value="cusine">Cuisine</option>
+                        <option value="kitchen">Kitchen</option>
+                      </select>
+                      <div class="arrow"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="details">
+                  Milk &amp; Honey<br/>
+                  Galery Lafayette - Le Gourmet<br/>
+                  Cafe de Paris<br/>
+                  Eric Kayser Bakery &amp; Restaurant<br/>
+                  Hummingbird Bakery<br/>
+                  Paul Bakery &amp; Restaurant
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="entry">
+                <div class="category">
+                  Shops
+                </div>
+                <div class="dropdown-container">
+                  <div class="dropdown">
+                    <div class="label">
+                      Show
+                    </div>
+                    <div class="box">
+                      <select>
+                        <option value="cusine">Cuisine</option>
+                        <option value="kitchen">Kitchen</option>
+                      </select>
+                      <div class="arrow"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="details">
+                  Milk &amp; Honey<br/>
+                  Galery Lafayette - Le Gourmet<br/>
+                  Cafe de Paris<br/>
+                  Eric Kayser Bakery &amp; Restaurant<br/>
+                  Hummingbird Bakery<br/>
+                  Paul Bakery &amp; Restaurant
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row spots-container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        <div class="col-md-12 title">New Spots</div>
+      </div>
+      <div class="row">
+        <% (0..4).each do |number| %>
+          <div class="entry">
+            <img src="<%= asset_path "temp_spot.png" %>"/>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<%= render partial: 'static/advertisment', :locals => {:advertisment => @advertisment, :left_image => (asset_path 'advertisment_restaurants') } %>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkAZ_2RCbYWxtO93oaozH2-n1dvrYpigM&callback=initMap"></script>

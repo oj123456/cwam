@@ -1,0 +1,82 @@
+<div class="page8">
+
+  <div class="row">
+    <div class="col-md-10  col-md-offset-1">
+      <div class="feature-container">
+        <div class="title">Features</div>
+        <div class="description">
+          A BRIEF DESCRIPTION ABOUT MY FAVOURITE ITEMS FOUND IN KITCHEN
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="spices" class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="cans-container">
+        <div class="title">Spice Rack</div>
+        <div class="cans-content">
+          <div class="arrow left" id="slider_cans_previous"></div>
+          <div class="entries" id="slider_cans">
+            <% @spices.each do |spice| %>
+              <div class="entry" data-name="<%= spice.title %>" data-description="<%= spice.description %>" data-image="<%= spice.image.url %>" data-url="<%= recipe_listing_path(spice: spice.slug) %>">
+                <div class="image" style="background-image:url('<%= spice.image.url %>')"></div>
+                <div class="name"><%= spice.title.upcase %></div>
+              </div>
+            <% end %>
+          </div>
+          <div class="arrow right" id="slider_cans_next"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="note-container">
+        <div class="note-content">
+          <div class="col-md-4">
+            <div class="note-image">
+              <img id="selected_spice_image" src=""/>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="title" id="selected_spice_title"></div>
+            <div class="description" id="selected_spice_description"></div>
+            <div class="action">
+              <a id="selected_spice_url" href="#">
+                DISCOVER RECIPES USED IN THIS RECIPIENT
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <%= render partial: 'static/advertisment', :locals => {:advertisment => @advertisment, :left_image => (asset_path 'advertisment_helpers') } %>
+
+  <img src="<%= asset_path 'section_blocks.jpg' %>" class="blocks-underground"/>
+
+  <div class="push-up-180">
+    <div id="kitchen" class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="tags-container">
+          <div class="title">Kitchen Helpers</div>
+          <div class="entries">
+            <% @kitchen_helpers.each do |kitchen_helper| %>
+              <a href="<%= recipe_listing_path(kitchen_helper: kitchen_helper.slug) %>">
+                <div class="entry invert-button-colors">
+                  <%= kitchen_helper.title.upcase %>
+                </div>
+              </a>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

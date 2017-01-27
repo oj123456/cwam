@@ -1,0 +1,32 @@
+<% recipes = Recipe.where(recipe_of_the_month: true)
+  if recipes %>
+  <div class="row recipes-container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        <div class="col-md-12 title">
+          Recipes of the month
+        </div>
+      </div>
+      <div class="row">
+
+        <% recipes.each do | recipe | %>
+          <div class="col-md-3 col-sm-6">
+            <div class="entry">
+              <div class="image">
+                <img src="<%= recipe.image.url %>" alt="<%= recipe.title %>" title="<%= recipe.title %>" />
+              </div>
+              <div class="name"><%= recipe.dish_types_concat %></div>
+              <div class="description">
+                <%= recipe.title %>
+              </div>
+              <div class="action-container">
+                <a href="<%= recipe_detail_path(slug: recipe.slug) %>"><div class="action invert-button-colors"> GET RECIPE</div></a>
+              </div>
+            </div>
+          </div>
+        <% end %>
+
+      </div>
+    </div>
+  </div>
+<% end %>

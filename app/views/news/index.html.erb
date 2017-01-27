@@ -1,0 +1,149 @@
+<div class="page4">
+  <div id="events"></div>
+  <div class="row events-container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title">Events In Town</div>
+          <div class="arrows-container">
+            <div class="arrow left" id="slider_events_next"></div>
+            <div class="arrow right" id="slider_events_previous"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row slider-container">
+        <div class="col-md-12" id="slider_events">
+          <% @events.each do |event| %>
+            <div class="entry">
+              <div class="image">
+                <img src="<%= event.image.url %>"/>
+              </div>
+              <div class="name"><%= event.title %><br /><%= event.tag_line %></div>
+              <div class="details">
+                <div class="label">WHEN</div>
+                <div class="value"><%= event.formatted_date %></div>
+              </div>
+              <div class="details">
+                <div class="label">WHERE</div>
+                <div class="value"><%= event.location %></div>
+              </div>
+              <div class="about">
+                <div class="about-title">ABOUT THE EVENT</div>
+                <div class="description" is-event-description="1">
+                  <%= event.description.html_safe %>
+                </div>
+                <div class="contact">
+                  <div class="label">RSVP</div>
+                  <div class="value">
+                    <% if !event.phone_number.empty? %><a href="tel:<%= event.phone_number %>"><%= event.phone_number %></a><br/><% end %>
+                    <% if !event.email.empty? %><a href="mailto:<%= event.email %>"><%= event.email %></a><% end %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%= render partial: 'static/advertisment', :locals => {:advertisment => @advertisment, :left_image => (asset_path 'advertisment_events') } %>
+  <img src="<%= asset_path 'section_blocks.jpg' %>" class="blocks-underground"/>
+
+  <div class="push-up-180">
+    <div id="competitions"></div>
+    <div class="row win-container">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="row">
+          <div class="col-md-12 title">
+            Competitions
+          </div>
+        </div>
+        <div class="row win-content">
+          <div class="arrow-container">
+            <div class="arrow left" id="slider_win_previous"></div>
+          </div>
+          <div class="entries-container" id="slider_win">
+            <% count = 0
+            @competitions.each do |competition|
+              count+=1
+            %>
+          <div class="entry <%= count % 2 == 0 ? "right" : "left" %>">
+            <div is-competition="1" class="description"><%= competition.description.html_safe %></div>
+            <div class="highlight">
+              WIN
+            </div>
+            <div class="value"><%= competition.title.upcase %></div>
+            <a target="_blank" href="<%= competition.url %>">
+              <div class="action invert-green-button-colors">
+                I WANT THIS
+              </div>
+            </a>
+          </div>
+        <% end %>
+          </div>
+          <div class="arrow-container">
+            <div class="arrow right" id="slider_win_next"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="interviews"></div>
+  <div class="row interview-container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        <div class="col-md-12 title">
+          Interviews
+        </div>
+      </div>
+      <div class="row entries-container" id="slider_interview">
+        <% @interviews.each do |interview| %>
+          <div class="entry">
+            <a href="<%= interview_detail_path(slug: interview.slug) %>">
+              <div class="image">
+                <img src="<%= interview.image.url %>"/>
+              </div>
+            </a>
+            <div class="name"><%= interview.title %></div>
+            <div class="description"><%= interview.position %></div>
+          </div>
+        <% end %>
+      </div>
+      <div class="row arrows-container">
+        <div class="arrow left" id="slider_interview_previous"></div>
+        <div class="arrow right" id="slider_interview_next"></div>
+      </div>
+    </div>
+  </div>
+
+  <img src="<%= asset_path 'section_blocks.jpg' %>" class="blocks-underground"/>
+
+  <div class="push-up-180">
+    <div id="press"></div>
+    <div class="row press-container">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title">
+              In the press
+            </div>
+          </div>
+        </div>
+        <div class="row press-content">
+          <div class="arrow left" id="slider_press_previous"></div>
+          <div class="arrow right" id="slider_press_next"></div>
+          <div class="entries-container" id="slider_press">
+            <% @press_releases.each do |press_release| %>
+              <div class="entry">
+                <div class="image"><img src="<%= press_release.image.url %>"/></div>
+                <div class="label"><a targer="_blank" href="<%= press_release.url %>"><%= press_release.title %></a></div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

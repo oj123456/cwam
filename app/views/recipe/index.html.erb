@@ -1,0 +1,161 @@
+<div class="page2">
+
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row-fluid">
+        <div class="col-md-12">
+          <div class="row browse-container">
+            <div class="col-md-8">
+              <div class="title">
+                BROWSE THROUGH <br/>
+                OUR RECIPE ARCHIVE
+              </div>
+              <div class="description">
+                Find delicious recipes by looking up<br/>
+                a dish type, a main ingredient, an occasion
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="action-container">
+                <a href="<%= users_recipe_box_path %>">
+                  <div class="action">
+                    CREATE YOU OWN RECIPE BOX
+                  </div>
+                </a>
+              </div>
+              <div class="image">
+                <img src="<%= asset_path 'box.png' %>"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <% if @dish_types.count > 0 %>
+    <div id="dish_types"></div>
+    <div class="row dish-container">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="row">
+          <div class="col-md-12 title">
+            Dish Type
+          </div>
+        </div>
+        <div class="row entries">
+          <% @dish_types.each do |dish_type| %>
+            <div class="entry">
+              <a href="<%= recipe_listing_path(dish_type: dish_type.slug) %>">
+                <div class="image">
+                  <img src="<%= dish_type.image.url %>"/>
+                </div>
+                <div class="label">
+                  <%= dish_type.title.upcase %>
+                </div>
+              </a>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+
+
+  <% if @main_ingredients.count > 0 %>
+    <div id="main_ingredients"></div>
+      <div class="row ingredients-container">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row">
+            <div class="title">
+              Main Ingredients
+            </div>
+          </div>
+          <div class="row entries-container">
+            <% @main_ingredients.each do |main_ingredient| %>
+              <div class="entry">
+                <a href="<%= recipe_listing_path(main_ingredient: main_ingredient.slug) %>">
+                  <div class="image">
+                    <img src="<%= main_ingredient.image.url %>"/>
+                  </div>
+                  <div class="label">
+                    <%= main_ingredient.title.upcase %>
+                  </div>
+                  <div class="description">
+                    <%= main_ingredient.description.html_safe %>
+                  </div>
+                </a>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+  <% end %>
+
+  <% if @occasions.count > 0 %>
+    <div id="occasions"></div>
+      <div class="row occasions-container">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row">
+            <div class="col-md-12 title">
+              Occasions
+            </div>
+          </div>
+          <div class="row entries-container">
+            <% @occasions.each do |occasion| %>
+              <div class="col-md-4">
+                <div class="entry">
+                  <a href="<%= recipe_listing_path(occasion: occasion.slug) %>">
+                    <div class="image">
+                      <img src="<%= occasion.image.url %>"/>
+                    </div>
+                    <div class="label">
+                      <%= occasion.title %>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+  <% end %>
+
+  <% if @meals_courses.count > 0 %>
+    <div id="meal_times"></div>
+      <div class="row meals-container">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row">
+            <div class="col-md-12 title">
+              Meals &amp; Courses
+            </div>
+          </div>
+          <div class="row entries-container">
+            <% @meals_courses.each do |meal_course| %>
+              <div class="col-md-3 col-sm-6">
+                <div class="entry">
+                  <a href="<%= recipe_listing_path(meal_time: meal_course.slug) %>">
+                    <div class="image">
+                      <img src="<%= meal_course.image.url %>"/>
+                    </div>
+                    <div class="label">
+                      <%= meal_course.title %>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+  <% end %>
+
+  <%= render partial: 'static/advertisment', :locals => {:advertisment => @advertisment, :left_image => (asset_path 'advertisment_recipe') } %>
+
+  <img src="<%= asset_path 'section_blocks.jpg' %>" class="blocks-underground"/>
+
+  <div class="push-up-180">
+    <%= render partial: 'static/recipes_of_the_month' %>
+  </div>
+
+
+</div>

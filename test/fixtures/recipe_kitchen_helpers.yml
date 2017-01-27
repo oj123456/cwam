@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: recipe_kitchen_helpers
+#
+#  id                :integer          not null, primary key
+#  recipe_id         :integer
+#  kitchen_helper_id :integer
+#  created_at        :datetime         not null
+#  updated_at        :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  recipe_id: 1
+  kitchen_helper_id: 1
+
+two:
+  recipe_id: 1
+  kitchen_helper_id: 1

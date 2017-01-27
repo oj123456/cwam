@@ -1,0 +1,19 @@
+mailchimp:
+  api_key: "54ff0c2438bcd36c6f904e27e583eecd-us14"
+  list_id: "881b40b2ff"
+
+google:
+  analytics_key: "UA-88062583-1"
+
+mail:
+  from: Cooking with a Manicure <info@cookingwithamanicure.com>
+
+smtp:
+  address: smtp.sparkpostmail.com
+  port: 587
+  domain: cookingwithamanicure.com
+  user_name: SMTP_Injection
+  password: 5cf4963bd40329fad14491da2b2a0f964ed7e588
+  authentication: login
+  enable_starttls_auto: true
+  openssl_verify_mode: none

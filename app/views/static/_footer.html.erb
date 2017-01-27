@@ -1,0 +1,82 @@
+<div class="footer">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        <div class="col-md-2 col-sm-4 logo">
+          <%= image_tag "logo.png" %>
+        </div>
+        <div class="col-md-2 col-sm-4 links">
+          <div class="title">
+            <a href="<%= recipe_path %>">RECIPES</a>
+          </div>
+          <ul class="entries">
+            <li><a href="<%= recipe_path %>#dish_types">DISH TYPE</a></li>
+            <li><a href="<%= recipe_path %>#main_ingredients">MAIN INGREDIENT</a></li>
+            <li><a href="<%= recipe_path %>#occasions">OCCASIONS</a></li>
+            <li><a href="<%= recipe_path %>#meal_times">MEALS & COURSES</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-4 links">
+          <div class="title">
+            <a href="<%= root_path %>news">NEWS</a>
+          </div>
+          <ul class="entries">
+            <li><a href="<%= root_path %>news#events">EVENTS IN TOWN</a></li>
+            <li><a href="<%= root_path %>news#competitions">COMPETITIONS</a></li>
+            <li><a href="<%= root_path %>news#interviews">INTERVIEWS</a></li>
+            <li><a href="<%= root_path %>news#press">IN THE PRESS</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-4 links">
+          <div class="title">
+            <a href="<%= helpers_path %>">FEATURES</a>
+          </div>
+          <ul class="entries">
+            <li><a href="<%= helpers_path %>#spices">SPICE RACK</a></li>
+            <li><a href="<%= helpers_path %>#kitchen">KITCHEN HELPERS</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-4 links">
+          <div class="title">
+            <a href="<%= restaurants_path %>">RESTAURANTS</a>
+          </div>
+          <ul class="entries">
+            <li><a href="<%= restaurants_path %>#">NEW SPOTS</a></li>
+            <li><a href="<%= restaurants_path %>#">FAVORITE SPORT</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-4 links">
+          <div class="title"><a href="<%= root_path %>about">ABOUT</a></div>
+          <ul class="entries">
+            <li><a href="<%= root_path %>about#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="engagement row">
+        <div class="follow col-md-3 col-sm-6 col-md-offset-2">
+          <div class="title">
+            Follow
+          </div>
+          <div class="entries">
+            <a target="_blank" href="https://www.facebook.com/Cooking-With-A-Manicure-1714679585524071/?fref=ts"><div class="entry"><%= image_tag "cwam-social-icons-facebook.png" %></div></a>
+            <a target="_blank" href="https://www.instagram.com/cookingwithamanicure/"><div class="entry"><%= image_tag "cwam-social-icons-instagram.png" %></div></a>
+            <!-- <a href="#"><div class="entry"><%= image_tag "cwam&#45;social&#45;icons&#45;pinterest.png" %></div></a> -->
+          </div>
+          <div class="copyright">
+            COPYRIGHT <%= Time.now.year %>
+          </div>
+        </div>
+        <div class="subscribe col-md-6 col-sm-6">
+          <div class="title">
+            <div class="line1">HEAR ABOUT THE LATEST</div>
+            <div class="line2">HAPPENING ON OUR SPACE</div>
+          </div>
+          <div class="action">
+            <input type="email" id="newsletter_email" placeholder="Email Address" />
+            <input type="button" id="submit_newsletter" class="invert-green-button-colors" value="SUBSCRIBE"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

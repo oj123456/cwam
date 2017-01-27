@@ -1,0 +1,33 @@
+<div class="header">
+  <div class="row-fluid">
+    <div class="col-md-10 col-md-offset-1 header-content">
+      <div class="logo-container">
+        <a href="<%= root_path %>">
+          <%= image_tag "logo_violet.png" %>
+        </a>
+      </div>
+      <div class="actions">
+        <div class="breadcumb" id="menu_open"></div>
+        <% if current_user %>
+          <div class="dropdown">
+            <button class="btn dropdown-toggle user" id="user-menu" type="button" data-toggle="dropdown"></button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="user-menu">
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="<%= edit_user_registration_path %>">Edit Profile</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="<%= users_recipe_box_path %>">Recipe box</a></li>
+              <li role="presentation"><%= link_to('Logout', destroy_user_session_path, :method => :delete) %></li>
+            </ul>
+          </div>
+          <div style="font-size:10px; width:100%; float:right; text-align:right"><%= current_user.first_name %> <%= current_user.last_name %></div>
+        <% else %>
+          <a href="<%= new_user_session_path %>" class="user"></a>
+        <% end %>
+      </div>
+      <div class="search-box-container">
+        <div class="search-box">
+          <div class="top-box"><input type="text" is-auto-complete="1"></div>
+          <div class="box-body"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

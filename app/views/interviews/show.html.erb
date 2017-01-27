@@ -1,0 +1,60 @@
+<div class="page5">
+
+  <div class="row events-container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="interview-container">
+            <div class="title">Interview</div>
+            <div class="image">
+              <img src="<%= @interview.horizontal_image.url %>" />
+            </div>
+            <div class="details">
+              <div class="name"><%= "#{@interview.title}: <br/> #{@interview.position}".html_safe %></div>
+              <div class="share">
+                <div class="label">Share</div>
+                <div class="links">
+                  <span class='st_sharethis_large' displayText='ShareThis'></span>
+                  <span class='st_facebook_large' displayText='Facebook'></span>
+                  <span class='st_twitter_large' displayText='Tweet'></span>
+                  <span class='st_pinterest_large' displayText='Pinterest'></span>
+                  <span class='st_email_large' displayText='Email'></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-md-offset-1 small-panel">
+          <div class="title">Read More...</div>
+          <% @other_interviews.each do |interview| %>
+            <div class="entry">
+              <a href="<%= interview_detail_path(slug: interview.slug) %>">
+                <div class="image"><img src="<%= interview.horizontal_image.url %>" /></div>
+                <div class="name"><%= interview.title %></div>
+                <div class="details"><%= interview.position %></div>
+              </a>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%= render partial: 'static/advertisment', :locals => {:advertisment => @advertisment, :left_image => (asset_path 'advertisment_interviews') } %>
+  <img src="<%= asset_path 'section_blocks.jpg' %>" class="blocks-underground"/>
+
+  <div class="push-up-180">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="discussion">
+          <% @interview.interview_questions.each do |question| %>
+            <div class="question"><%= question.title.html_safe %></div>
+            <div class="answer"><%= question.description.html_safe %></div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%= render partial: 'static/recipes_of_the_month' %>
+</div>

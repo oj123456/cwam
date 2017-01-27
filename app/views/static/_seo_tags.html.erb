@@ -1,0 +1,17 @@
+<% if @seo_data %>
+<meta name="Description" content="<%= @seo_data[:description] %>">
+<meta name="Keywords" content="<%= @seo_data[:keywords] %>">
+
+<meta property="og:title" content="<%= @seo_data[:title] %> | Cooking with a Manicure">
+<meta property="og:type" content="website">
+<meta property="og:image" content="<%= @seo_data[:image] %>">
+<meta property="og:url" content="<%= @seo_data[:url] %>">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Cooking with a Manicure">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="<%= @seo_data[:title] %> | Cooking with a Manicure">
+<meta name="twitter:description" content="<%= @seo_data[:description] %>">
+<meta name="twitter:image" content="<%= @seo_data[:image] %>">
+<% end %>

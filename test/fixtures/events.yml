@@ -1,0 +1,44 @@
+# == Schema Information
+#
+# Table name: events
+#
+#  id                   :integer          not null, primary key
+#  title                :string
+#  description          :string
+#  slug                 :string
+#  start_date           :datetime
+#  location             :string
+#  phone_number         :string
+#  email                :string
+#  created_at           :datetime         not null
+#  updated_at           :datetime         not null
+#  image_file_name      :string
+#  image_content_type   :string
+#  image_file_size      :integer
+#  image_updated_at     :datetime
+#  tag_line             :string
+#  image_2_file_name    :string
+#  image_2_content_type :string
+#  image_2_file_size    :integer
+#  image_2_updated_at   :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyString
+  slug: MyString
+  start_date: 2016-10-24 20:31:56
+  location: MyString
+  phone_number: MyString
+  email: MyString
+
+two:
+  title: MyString
+  description: MyString
+  slug: MyString
+  start_date: 2016-10-24 20:31:56
+  location: MyString
+  phone_number: MyString
+  email: MyString

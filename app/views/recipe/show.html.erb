@@ -1,0 +1,185 @@
+<div class="page3">
+
+  <div class="row dish-container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="picture">
+            <img src="<%= @recipe.image.url %>"/>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="overview">
+            <div class="category"><%= @recipe.dish_types.map(&:title).join(', ').upcase %></div>
+            <div class="name"><%= @recipe.title %></div>
+            <div class="note-label">NOTE FROM THE AUTHOR</div>
+            <div class="note-text"><%= @recipe.description.html_safe %></div>
+          </div>
+          <div class="hero-ingredient">
+            <div class="title">HERO INGREDIENT</div>
+            <div class="name"><%= @recipe.hero_ingredient %></div>
+            <div class="description"><%= @recipe.hero_ingredient_text.html_safe %></div>
+          </div>
+          <div class="conditions">
+            <div class="entry">
+              <div class="value"><%= @recipe.serving %></div>
+              <div class="label">SERVES</div>
+            </div>
+            <div class="entry">
+              <div class="value"><%= @recipe.timing %></div>
+              <div class="label">TIME</div>
+            </div>
+            <div class="entry">
+              <div class="value"><%= @recipe.level.upcase %></div>
+              <div class="label">LEVEL</div>
+            </div>
+            <a href="javascript:;" is-add-recipe="1" data-id="<%= @recipe.id %>">
+              <div class="action">
+                <div class="label">ADD TO RECIPE BOX</div>
+              </div>
+            </a>
+          </div>
+          <div class="tags">
+            <div class="title">Tags</div>
+            <div class="entries">
+               <% @recipe.dish_types.each do |dish_type| %>
+                <a href="<%= recipe_listing_path(dish_type: dish_type.slug) %>"><div class="entry"><%= dish_type.title.upcase %></div></a>
+              <% end %>
+              <% @recipe.main_ingredients.each do |main_ingredient| %>
+                <a href="<%= recipe_listing_path(main_ingredient: main_ingredient.slug) %>"><div class="entry"><%= main_ingredient.title.upcase %></div></a>
+              <% end %>
+              <% @recipe.occasions.each do |occasion| %>
+                <a href="<%= recipe_listing_path(occasion: occasion.slug) %>"><div class="entry"><%= occasion.title.upcase %></div></a>
+              <% end %>
+              <% @recipe.meal_times.each do |meal_time| %>
+                <a href="<%= recipe_listing_path(meal_time: meal_time.slug) %>"><div class="entry"><%= meal_time.title.upcase %></div></a>
+              <% end %>
+
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="share">
+              <div class="title">Share</div>
+              <div class="entries">
+                <span class='st_sharethis_large' displayText='ShareThis'></span>
+                <span class='st_facebook_large' displayText='Facebook'></span>
+                <span class='st_twitter_large' displayText='Tweet'></span>
+                <span class='st_pinterest_large' displayText='Pinterest'></span>
+                <span class='st_email_large' displayText='Email'></span>
+              </div>
+            </div>
+            <div class="review">
+              <div class="title">Reviews(<%= @recipe.reviews_count %>)</div>
+              <div class="entries">
+                <% rating = @recipe.reviews_average.to_f
+                  if rating == 0
+                %>
+                  <div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
+                <% elsif rating < 1 %>
+                    <div class="entry half"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
+                <% elsif rating == 1 %>
+                    <div class="entry full"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
+                <% elsif rating < 2 %>
+                    <div class="entry full"></div><div class="entry half"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
+                <% elsif rating == 2 %>
+                    <div class="entry full"></div><div class="entry full"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
+                <% elsif rating < 2 %>
+                    <div class="entry full"></div><div class="entry half"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
+                <% elsif rating == 3 %>
+                    <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry empty"></div><div class="entry empty"></div>
+                <% elsif rating < 3 %>
+                    <div class="entry full"></div><div class="entry full"></div><div class="entry half"></div><div class="entry empty"></div><div class="entry empty"></div>
+                <% elsif rating == 4 %>
+                    <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry empty"></div>
+                <% elsif rating < 4 %>
+                    <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry half"></div><div class="entry empty"></div>
+                <% elsif rating == 5 %>
+                    <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry full"></div>
+                <% elsif rating < 5 %>
+                    <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry half"></div>
+                <% end %>
+              </div>
+              <% if current_user %>
+                <div class="title second">My Review</div>
+                <div class="entries my-review">
+                  <% user_review = 0
+                     if @user_review
+                       user_review = @user_review.rating
+                     end
+                   %>
+                 <div is-user-review="1" data-id="1" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 1 ? "full" : "empty" %>"></div>
+                  <div is-user-review="1" data-id="2" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 2 ? "full" : "empty" %>"></div>
+                  <div is-user-review="1" data-id="3" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 3 ? "full" : "empty" %>"></div>
+                  <div is-user-review="1" data-id="4" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 4 ? "full" : "empty" %>"></div>
+                  <div is-user-review="1" data-id="5" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 5 ? "full" : "empty" %>"></div>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%= render partial: 'static/advertisment', :locals => {:advertisment => @advertisment, :left_image => (asset_path 'advertisment_recipe_inner') } %>
+
+  <img src="<%= asset_path 'section_blocks.jpg' %>" class="blocks-underground"/>
+
+  <div class="push-up-180">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="ingredients">
+              <div class="title">Ingredients</div>
+              <div class="description"><%= @recipe.ingredients.html_safe %></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="method">
+              <div class="title">Method</div>
+              <div class="description"><%= @recipe.method_of_preparation.html_safe %></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row notes-container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        <div class="col-md-12 title">Take note! This recipe use the following:</div>
+      </div>
+      <div class="row">
+        <div class="spice col-md-6 col-sm-6">
+          <div class="category">Spice Rack</div>
+          <div class="entries">
+            <% @recipe.spices.each do |spice| %>
+              <div class="entry">
+                <div class="image"><img src="<%= spice.image.url %>"/></div>
+                <div class="label"><%= spice.title.upcase %></div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+        <div class="kitchen col-md-6 col-sm-6">
+          <div class="category">Kitchen Helpers</div>
+          <div class="entries">
+            <% @recipe.kitchen_helpers.each do |kitchen_helper| %>
+              <div class="entry"><%= kitchen_helper.title.upcase %></div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <img src="<%= asset_path 'section_blocks.jpg' %>" class="blocks-underground"/>
+
+  <div class="push-up-180">
+    <%= render partial: 'static/recipes_of_the_month' %>
+  </div>
+
+</div>
+

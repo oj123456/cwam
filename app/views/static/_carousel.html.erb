@@ -1,0 +1,46 @@
+<div id="<%= carousel_name %>" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <%
+      count = 0
+      images.each do | image |
+    %>
+        <li data-target="#<%= carousel_name %>" data-slide-to="<%= "#{count}" %>" class="<%= "#{count == 0 ? "active" : ""}" %>"></li>
+    <%
+      count += 1
+      end
+    %>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <%
+      count = 0
+      images.each do | image |
+    %>
+        <div class="item <%= "#{count == 0 ? "active" : ""}" %>">
+          <% if image.url? %>
+              <a href="<%= image.url %>" title="<%= image.title %>" target="_blank">
+                <img src="<%= image.image.url %>" alt="<%= image.title %>" title="<%= image.title %>" />
+              </a>
+          <% else %>
+              <img src="<%= image.image.url %>" alt="<%= image.title %>" title="<%= image.title %>" />
+          <% end %>
+        </div>
+    <%
+      count += 1
+      end
+    %>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#<%= carousel_name %>" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#<%= carousel_name %>" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
