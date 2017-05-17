@@ -60,23 +60,4 @@
 
   <img src="<%= asset_path 'section_blocks.jpg' %>" class="blocks-underground"/>
 
-  <div class="push-up-180">
-    <div id="kitchen" class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <div class="tags-container">
-          <div class="title">Kitchen Helpers</div>
-          <div class="entries">
-            <% @kitchen_helpers.each do |kitchen_helper| %>
-              <a href="<%= recipe_listing_path(kitchen_helper: kitchen_helper.slug) %>">
-                <div class="entry invert-button-colors">
-                  <%= kitchen_helper.title.upcase %>
-                </div>
-              </a>
-            <% end %>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
 </div>

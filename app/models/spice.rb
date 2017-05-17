@@ -12,6 +12,7 @@
 #  image_content_type :string
 #  image_file_size    :integer
 #  image_updated_at   :datetime
+#  spice_type         :integer
 #
 
 class Spice < ApplicationRecord
@@ -19,6 +20,8 @@ class Spice < ApplicationRecord
 
   has_many :recipe_spices, :dependent => :delete_all
   has_many :recipes, through: :recipe_spices
+
+  enum spice_type: [:normal, :fresh]
 
   validates_presence_of :title, :description, :image
 

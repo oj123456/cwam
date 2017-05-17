@@ -152,8 +152,9 @@
         <div class="col-md-12 title">Take note! This recipe use the following:</div>
       </div>
       <div class="row">
-        <div class="spice col-md-6 col-sm-6">
-          <% if @recipe.scipes.count > 0 %>
+
+        <div class="spice col-md-12 col-sm-12">
+          <% if @recipe.spices.count > 0 %>
             <div class="category">Spice Rack</div>
             <div class="entries">
               <% @recipe.spices.each do |spice| %>
@@ -167,14 +168,7 @@
             <div class="category">No spices were used !</div>
           <% end %>
         </div>
-        <div class="kitchen col-md-6 col-sm-6">
-          <div class="category">Kitchen Helpers</div>
-          <div class="entries">
-            <% @recipe.kitchen_helpers.each do |kitchen_helper| %>
-              <div class="entry"><%= kitchen_helper.title.upcase %></div>
-            <% end %>
-          </div>
-        </div>
+
       </div>
     </div>
   </div>
@@ -186,4 +180,3 @@
   </div>
 
 </div>
-
