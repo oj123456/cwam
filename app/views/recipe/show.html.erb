@@ -161,6 +161,9 @@
                 <div class="entry">
                   <div class="image"><img src="<%= spice.image.url %>"/></div>
                   <div class="label"><%= spice.title.upcase %></div>
+                  <% if spice.fresh? %>
+                    <div class="fresh">FRESH</div>
+                  <% end %>
                 </div>
               <% end %>
             </div>

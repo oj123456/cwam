@@ -16977,7 +16977,7 @@ function reloadPage(){
 function addGrowl(message, type){
   $.notify({
     message:message,
-    icon: 'glyphicon glyphicon-warning-sign' 
+    icon: 'glyphicon glyphicon-warning-sign'
   },{
     timer: 1500,
     delay: 3000,
@@ -16987,10 +16987,16 @@ function addGrowl(message, type){
 
 function getSpiceData(slider_id) {
   currentSlideData = $($("[data-slick-index=" + slider_id +"]")[0]);
+  var isFresh = currentSlideData.attr("data-fresh");
   $("#selected_spice_image").attr("src", currentSlideData.attr("data-image"));
   $("#selected_spice_url").attr("href", currentSlideData.attr("data-url"));
   $("#selected_spice_title").html(currentSlideData.attr("data-name"));
   $("#selected_spice_description").html(currentSlideData.attr("data-description"));
+  if (isFresh){
+    $("#selected_fresh").css("display", "block");
+  }else{
+    $("#selected_fresh").css("display", "none");
+  }
 }
 
 function addToRecipeBox(recipe_id){
@@ -17024,7 +17030,7 @@ function deleteFromRecipeBox(recipe_id){
       }else{
         addGrowl(data.message, "danger");
       }
-    }        
+    }
   });
 }
 ;
