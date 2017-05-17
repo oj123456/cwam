@@ -153,15 +153,19 @@
       </div>
       <div class="row">
         <div class="spice col-md-6 col-sm-6">
-          <div class="category">Spice Rack</div>
-          <div class="entries">
-            <% @recipe.spices.each do |spice| %>
-              <div class="entry">
-                <div class="image"><img src="<%= spice.image.url %>"/></div>
-                <div class="label"><%= spice.title.upcase %></div>
-              </div>
-            <% end %>
-          </div>
+          <% if @recipe.scipes.count > 0 %>
+            <div class="category">Spice Rack</div>
+            <div class="entries">
+              <% @recipe.spices.each do |spice| %>
+                <div class="entry">
+                  <div class="image"><img src="<%= spice.image.url %>"/></div>
+                  <div class="label"><%= spice.title.upcase %></div>
+                </div>
+              <% end %>
+            </div>
+          <% else %>
+            <div class="category">No spices were used !</div>
+          <% end %>
         </div>
         <div class="kitchen col-md-6 col-sm-6">
           <div class="category">Kitchen Helpers</div>

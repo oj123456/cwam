@@ -1,36 +1,25 @@
 <div id="<%= carousel_name %>" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <%
-      count = 0
-      images.each do | image |
-    %>
-        <li data-target="#<%= carousel_name %>" data-slide-to="<%= "#{count}" %>" class="<%= "#{count == 0 ? "active" : ""}" %>"></li>
-    <%
-      count += 1
-      end
-    %>
+    <% images.each_with_index do | image, count | %>
+      <li data-target="#<%= carousel_name %>" data-slide-to="<%= "#{count}" %>" class="<%= "active" if count == 0 %>"></li>
+    <% end %>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <%
-      count = 0
-      images.each do | image |
-    %>
-        <div class="item <%= "#{count == 0 ? "active" : ""}" %>">
-          <% if image.url? %>
-              <a href="<%= image.url %>" title="<%= image.title %>" target="_blank">
-                <img src="<%= image.image.url %>" alt="<%= image.title %>" title="<%= image.title %>" />
-              </a>
-          <% else %>
-              <img src="<%= image.image.url %>" alt="<%= image.title %>" title="<%= image.title %>" />
-          <% end %>
+    <% images.each_with_index do | image, count | %>
+      <% if image.url? %>
+        <div class="item <%= "active" if count == 0 %>"
+             onclick='window.location.href="<%= image.url %>"'
+             style="background-image: url('<%= image.image.url %>'); cursor: pointer;">
         </div>
-    <%
-      count += 1
-      end
-    %>
+      <% else %>
+        <div class="item <%= "active" if count == 0 %>"
+             style="background-image: url('<%= image.image.url %>')">
+        </div>
+      <% end %>
+    <% end %>
   </div>
 
   <!-- Left and right controls -->

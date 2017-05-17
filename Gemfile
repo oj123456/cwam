@@ -61,6 +61,7 @@ group :development do
   gem 'capistrano-rails', '~> 1.1.0'
   gem 'capistrano-rvm'#, github: 'capistrano/rvm'
   gem 'capistrano-bundler'
+  gem 'rails-erd'
 
   gem 'pry'
   gem 'pry-rails'
