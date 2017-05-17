@@ -12,11 +12,11 @@
       <% if image.url? %>
         <div class="item <%= "active" if count == 0 %>"
              onclick='window.location.href="<%= image.url %>"'
-             style="background-image: url('<%= image.image.url %>'); cursor: pointer;">
+             style='background-image: url("<%= image.image.url %>"); cursor: pointer;'>
         </div>
       <% else %>
         <div class="item <%= "active" if count == 0 %>"
-             style="background-image: url('<%= image.image.url %>')">
+             style='background-image: url("<%= image.image.url %>");'>
         </div>
       <% end %>
     <% end %>
