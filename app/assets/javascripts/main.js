@@ -372,7 +372,7 @@ function getSpiceData(slider_id) {
   $("#selected_spice_url").attr("href", currentSlideData.attr("data-url"));
   $("#selected_spice_title").html(currentSlideData.attr("data-name"));
   $("#selected_spice_description").html(currentSlideData.attr("data-description"));
-  if (isFresh){
+  if (isFresh == "true"){
     $("#selected_fresh").css("display", "block");
   }else{
     $("#selected_fresh").css("display", "none");
