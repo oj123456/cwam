@@ -42,7 +42,7 @@
           <div class="tags">
             <div class="title">Tags</div>
             <div class="entries">
-               <% @recipe.dish_types.each do |dish_type| %>
+              <% @recipe.dish_types.each do |dish_type| %>
                 <a href="<%= recipe_listing_path(dish_type: dish_type.slug) %>"><div class="entry"><%= dish_type.title.upcase %></div></a>
               <% end %>
               <% @recipe.main_ingredients.each do |main_ingredient| %>
@@ -72,46 +72,46 @@
               <div class="title">Reviews(<%= @recipe.reviews_count %>)</div>
               <div class="entries">
                 <% rating = @recipe.reviews_average.to_f
-                  if rating == 0
-                %>
-                  <div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
-                <% elsif rating < 1 %>
-                    <div class="entry half"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
-                <% elsif rating == 1 %>
-                    <div class="entry full"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
-                <% elsif rating < 2 %>
-                    <div class="entry full"></div><div class="entry half"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
-                <% elsif rating == 2 %>
-                    <div class="entry full"></div><div class="entry full"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
-                <% elsif rating < 2 %>
-                    <div class="entry full"></div><div class="entry half"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
-                <% elsif rating == 3 %>
-                    <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry empty"></div><div class="entry empty"></div>
-                <% elsif rating < 3 %>
-                    <div class="entry full"></div><div class="entry full"></div><div class="entry half"></div><div class="entry empty"></div><div class="entry empty"></div>
-                <% elsif rating == 4 %>
-                    <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry empty"></div>
-                <% elsif rating < 4 %>
-                    <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry half"></div><div class="entry empty"></div>
-                <% elsif rating == 5 %>
-                    <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry full"></div>
-                <% elsif rating < 5 %>
-                    <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry half"></div>
-                <% end %>
+                if rating == 0
+              %>
+            <div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
+          <% elsif rating < 1 %>
+            <div class="entry half"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
+          <% elsif rating == 1 %>
+            <div class="entry full"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
+          <% elsif rating < 2 %>
+            <div class="entry full"></div><div class="entry half"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
+          <% elsif rating == 2 %>
+            <div class="entry full"></div><div class="entry full"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
+          <% elsif rating < 2 %>
+            <div class="entry full"></div><div class="entry half"></div><div class="entry empty"></div><div class="entry empty"></div><div class="entry empty"></div>
+          <% elsif rating == 3 %>
+            <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry empty"></div><div class="entry empty"></div>
+          <% elsif rating < 3 %>
+            <div class="entry full"></div><div class="entry full"></div><div class="entry half"></div><div class="entry empty"></div><div class="entry empty"></div>
+          <% elsif rating == 4 %>
+            <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry empty"></div>
+          <% elsif rating < 4 %>
+            <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry half"></div><div class="entry empty"></div>
+          <% elsif rating == 5 %>
+            <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry full"></div>
+          <% elsif rating < 5 %>
+            <div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry full"></div><div class="entry half"></div>
+          <% end %>
               </div>
               <% if current_user %>
                 <div class="title second">My Review</div>
                 <div class="entries my-review">
                   <% user_review = 0
-                     if @user_review
-                       user_review = @user_review.rating
-                     end
-                   %>
-                 <div is-user-review="1" data-id="1" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 1 ? "full" : "empty" %>"></div>
-                  <div is-user-review="1" data-id="2" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 2 ? "full" : "empty" %>"></div>
-                  <div is-user-review="1" data-id="3" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 3 ? "full" : "empty" %>"></div>
-                  <div is-user-review="1" data-id="4" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 4 ? "full" : "empty" %>"></div>
-                  <div is-user-review="1" data-id="5" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 5 ? "full" : "empty" %>"></div>
+                  if @user_review
+                    user_review = @user_review.rating
+                  end
+                %>
+              <div is-user-review="1" data-id="1" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 1 ? "full" : "empty" %>"></div>
+              <div is-user-review="1" data-id="2" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 2 ? "full" : "empty" %>"></div>
+              <div is-user-review="1" data-id="3" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 3 ? "full" : "empty" %>"></div>
+              <div is-user-review="1" data-id="4" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 4 ? "full" : "empty" %>"></div>
+              <div is-user-review="1" data-id="5" data-recipe-id="<%= @recipe.id %>" class="entry <%= user_review >= 5 ? "full" : "empty" %>"></div>
                 </div>
               <% end %>
             </div>
@@ -149,12 +149,16 @@
   <div class="row notes-container">
     <div class="col-md-10 col-md-offset-1">
       <div class="row">
-        <div class="col-md-12 title">Take note! This recipe use the following:</div>
+        <% if @recipe.spices.count > 0 %>
+          <div class="col-md-12 title">Take note! This recipe use the following:</div>
+        <% else %>
+          <div class="col-md-12 title">Take note! This recipe doesn't require any spices.</div>
+        <% end %>
       </div>
-      <div class="row">
 
-        <div class="spice col-md-12 col-sm-12">
-          <% if @recipe.spices.count > 0 %>
+      <% if @recipe.spices.count > 0 %>
+        <div class="row">
+          <div class="spice col-md-12 col-sm-12">
             <div class="category">Spice Rack</div>
             <div class="entries">
               <% @recipe.spices.each do |spice| %>
@@ -167,12 +171,10 @@
                 </div>
               <% end %>
             </div>
-          <% else %>
-            <div class="category">No spices were used !</div>
-          <% end %>
+          </div>
         </div>
+      <% end %>
 
-      </div>
     </div>
   </div>
 
