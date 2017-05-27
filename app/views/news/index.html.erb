@@ -46,8 +46,8 @@
                 <div class="contact">
                   <div class="label">RSVP</div>
                   <div class="value">
-                    <% if !event.phone_number.empty? %><a href="tel:<%= event.phone_number %>"><%= event.phone_number %></a><br/><% end %>
-                    <% if !event.email.empty? %><a href="mailto:<%= event.email %>"><%= event.email %></a><% end %>
+                    <% if event.phone_number && !event.phone_number.empty? %><a href="tel:<%= event.phone_number %>"><%= event.phone_number %></a><br/><% end %>
+                    <% if event.email && !event.email.empty? %><a href="mailto:<%= event.email %>"><%= event.email %></a><% end %>
                   </div>
                 </div>
               </div>
