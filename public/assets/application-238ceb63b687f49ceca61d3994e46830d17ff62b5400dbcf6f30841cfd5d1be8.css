@@ -10663,26 +10663,27 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
 }
 
 /* line 1073, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+.page4 .events-container .slider-container .entry .about .description,
 .page4 .events-container .slider-container .entry .about .description p {
   margin-bottom: 20px;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 18px;
 }
 
-/* line 1077, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1078, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .events-container .slider-container .entry .about .read-more {
   color: #000000;
   font-family: "Poppins-SemiBold";
   font-size: 18px;
 }
 
-/* line 1081, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1082, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .events-container .slider-container .entry .about .contact {
   margin-top: 70px;
   line-height: 20px;
 }
 
-/* line 1084, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1085, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .events-container .slider-container .entry .about .contact .label {
   color: #660088;
   font-size: 13px;
@@ -10691,35 +10692,35 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1090, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1091, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .events-container .slider-container .entry .about .contact .value {
   margin-top: 10px;
 }
 
-/* line 1092, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1093, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .events-container .slider-container .entry .about .contact .value > a {
   color: #000000;
   margin-top: 10px;
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1096, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1097, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .win-container {
   margin-top: 20px;
 }
 
-/* line 1098, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1099, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .win-container .win-content {
   margin-top: 50px;
 }
 
-/* line 1100, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1101, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .win-container .win-content .arrow-container {
   float: left;
   width: 14%;
 }
 
-/* line 1103, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1104, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .win-container .win-content .arrow-container .arrow {
   width: 60px;
   height: 33px;
@@ -10728,26 +10729,26 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   cursor: pointer;
 }
 
-/* line 1109, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1110, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .win-container .win-content .arrow-container .arrow.left {
   float: right;
   background-image: url(/assets/arrow_left-0d7d4e448729f1c3e10f0f11fcba087aa78ef180e3d0453736440a05975acb6f.png);
 }
 
-/* line 1112, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1113, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .win-container .win-content .arrow-container .arrow.right {
   float: left;
   background-image: url(/assets/arrow_right-18f3e6f19a06576017b49cbc22f26f3072eae46ac50a2ef9ccf68020b4451ce9.png);
 }
 
-/* line 1115, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1116, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .win-container .win-content .entries-container {
   float: left;
   width: 72%;
   text-align: center;
 }
 
-/* line 1119, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1120, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .win-container .win-content .entries-container .entry {
   display: inline-block;
   padding: 20px 25px 20px 20px;
@@ -10759,17 +10760,17 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   background-size: 100% 100%;
 }
 
-/* line 1128, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1129, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .win-container .win-content .entries-container .entry.left {
   background-image: url(/assets/win_background_1-e3426f154a76d73d809f642be13d86bc6662b6bdffcc6678513b6ecc7e21f668.jpg);
 }
 
-/* line 1130, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1131, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .win-container .win-content .entries-container .entry.right {
   background-image: url(/assets/win_background_2-ecd6acbbd4e05f8bb20e40d9c7ffa8874b6a62fccd5681336ac69c78946713f8.jpg);
 }
 
-/* line 1132, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1133, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .win-container .win-content .entries-container .entry .description {
   text-align: left;
   color: #FFFFFF;
@@ -10778,7 +10779,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   line-height: 22px;
 }
 
-/* line 1138, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1139, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .win-container .win-content .entries-container .entry .highlight {
   text-align: left;
   color: #660088;
@@ -10788,7 +10789,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   letter-spacing: 5px;
 }
 
-/* line 1145, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1146, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .win-container .win-content .entries-container .entry .value {
   text-align: left;
   margin-top: 5px;
@@ -10801,7 +10802,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   min-height: 115px;
 }
 
-/* line 1155, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1156, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .win-container .win-content .entries-container .entry .action {
   float: left;
   border: 1px solid #FFFFFF;
@@ -10810,26 +10811,26 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   margin-top: 70px;
 }
 
-/* line 1161, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1162, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .interview-container {
   background-color: #FFF2F1;
   padding: 50px 0;
   margin-top: 80px;
 }
 
-/* line 1165, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1166, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .interview-container .entries-container {
   margin-top: 50px;
   padding: 0 15px;
 }
 
-/* line 1168, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1169, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .interview-container .entries-container .entry {
   width: 25%;
   margin-top: 20px;
 }
 
-/* line 1171, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1172, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .interview-container .entries-container .entry .image > img {
   display: inline-block;
   width: 100%;
@@ -10837,7 +10838,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   max-width: 226px;
 }
 
-/* line 1176, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1177, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .interview-container .entries-container .entry .name {
   margin-top: 40px;
   color: #000000;
@@ -10845,7 +10846,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   font-family: "Poppins";
 }
 
-/* line 1181, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1182, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .interview-container .entries-container .entry .description {
   margin-top: 5px;
   font-size: 14px;
@@ -10854,13 +10855,13 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   max-width: 226px;
 }
 
-/* line 1187, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1188, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .interview-container .arrows-container {
   margin-top: 20px;
   padding: 0 15px;
 }
 
-/* line 1190, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1191, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .interview-container .arrows-container .arrow {
   width: 60px;
   height: 33px;
@@ -10868,31 +10869,31 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   cursor: pointer;
 }
 
-/* line 1195, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1196, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .interview-container .arrows-container .arrow.left {
   float: left;
   background-image: url(/assets/arrow_left-0d7d4e448729f1c3e10f0f11fcba087aa78ef180e3d0453736440a05975acb6f.png);
 }
 
-/* line 1198, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1199, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .interview-container .arrows-container .arrow.right {
   float: right;
   background-image: url(/assets/arrow_right-18f3e6f19a06576017b49cbc22f26f3072eae46ac50a2ef9ccf68020b4451ce9.png);
 }
 
-/* line 1201, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1202, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .press-container {
   margin-top: 80px;
 }
 
-/* line 1203, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1204, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .press-container .press-content {
   margin-top: 70px;
   position: relative;
   padding: 0 140px;
 }
 
-/* line 1207, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1208, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .press-container .press-content .arrow {
   width: 60px;
   height: 33px;
@@ -10902,36 +10903,36 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   position: absolute;
 }
 
-/* line 1214, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1215, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .press-container .press-content .arrow.left {
   left: 15px;
   background-image: url(/assets/arrow_left-0d7d4e448729f1c3e10f0f11fcba087aa78ef180e3d0453736440a05975acb6f.png);
 }
 
-/* line 1217, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1218, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .press-container .press-content .arrow.right {
   right: 15px;
   background-image: url(/assets/arrow_right-18f3e6f19a06576017b49cbc22f26f3072eae46ac50a2ef9ccf68020b4451ce9.png);
 }
 
-/* line 1220, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1221, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .press-container .press-content .entries-container {
   margin: 20px 0;
   text-align: center;
 }
 
-/* line 1223, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1224, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .press-container .press-content .entries-container .entry {
   text-align: center;
   display: inline-block;
 }
 
-/* line 1226, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1227, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .press-container .press-content .entries-container .entry .image {
   text-align: center;
 }
 
-/* line 1228, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1229, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .press-container .press-content .entries-container .entry .image > img {
   display: inline-block;
   width: 100%;
@@ -10940,7 +10941,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   vertical-align: middle;
 }
 
-/* line 1234, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1235, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page4 .press-container .press-content .entries-container .entry .label {
   white-space: normal;
   margin-top: 30px;
@@ -10951,24 +10952,24 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1243, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1244, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 {
   min-height: 300px;
   overflow: hidden;
   margin: 50px 0;
 }
 
-/* line 1247, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1248, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .interview-container {
   margin-bottom: 50px;
 }
 
-/* line 1249, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1250, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .interview-container .image {
   margin-top: 20px;
 }
 
-/* line 1251, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1252, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .interview-container .image > img {
   width: 100%;
   max-width: 720px;
@@ -10976,7 +10977,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   vertical-align: middle;
 }
 
-/* line 1256, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1257, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .interview-container .details {
   margin-top: 40px;
   min-height: 10px;
@@ -10984,7 +10985,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   max-width: 720px;
 }
 
-/* line 1261, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1262, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .interview-container .details .name {
   float: left;
   color: #660088;
@@ -10993,12 +10994,12 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1267, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1268, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .interview-container .details .share {
   float: right;
 }
 
-/* line 1269, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1270, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .interview-container .details .share .label {
   color: #000000;
   text-align: left;
@@ -11007,23 +11008,23 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1275, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1276, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .interview-container .details .share .links {
   text-align: center;
   margin-top: 20px;
 }
 
-/* line 1278, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1279, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .interview-container .details .share .links .entry {
   display: inline-block;
 }
 
-/* line 1280, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1281, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .discussion {
   margin: 20px 0 100px;
 }
 
-/* line 1282, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1283, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .discussion .question {
   color: #660088;
   margin-top: 20px;
@@ -11032,7 +11033,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1288, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1289, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .discussion .answer {
   color: #000000;
   margin-top: 20px;
@@ -11040,12 +11041,12 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   line-height: 22px;
 }
 
-/* line 1293, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1294, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .small-panel {
   padding-left: 65px;
 }
 
-/* line 1295, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1296, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .small-panel .title {
   font-size: 20px;
   margin-top: 3px;
@@ -11053,12 +11054,12 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1300, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1301, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .small-panel .entry {
   margin-bottom: 50px;
 }
 
-/* line 1302, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1303, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .small-panel .entry .image > img {
   width: 100%;
   height: auto;
@@ -11066,7 +11067,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   max-width: 220px;
 }
 
-/* line 1307, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1308, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .small-panel .entry .name {
   font-size: 12px;
   color: #660088;
@@ -11074,7 +11075,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1312, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1313, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .small-panel .entry .details {
   margin-top: 3px;
   font-size: 11px;
@@ -11082,7 +11083,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   line-height: 14px;
 }
 
-/* line 1317, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1318, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page5 .small-panel .date {
   color: #000000;
   border-bottom: 2px solid #660088;
@@ -11090,18 +11091,18 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   padding-bottom: 30px;
 }
 
-/* line 1323, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1324, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 {
   min-height: 300px;
   overflow: hidden;
 }
 
-/* line 1326, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1327, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .map-container {
   position: relative;
 }
 
-/* line 1328, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1329, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .map-container .title {
   left: 0;
   color: #000000;
@@ -11110,20 +11111,20 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   padding: 60px 0px;
 }
 
-/* line 1334, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1335, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .map-container .image > img {
   width: 100%;
   height: auto;
   vertical-align: middle;
 }
 
-/* line 1338, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1339, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .spots-container {
   background-color: #30c183;
   padding: 40px 0;
 }
 
-/* line 1341, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1342, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .spots-container .entry {
   float: left;
   margin: 50px 0 20px 0;
@@ -11131,7 +11132,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   text-align: center;
 }
 
-/* line 1346, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1347, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .spots-container .entry > img {
   width: 100%;
   height: auto;
@@ -11139,30 +11140,30 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   max-width: 145px;
 }
 
-/* line 1353, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1354, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .favourite-container .title {
   font-size: 26px;
   color: #000000;
 }
 
-/* line 1356, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1357, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .favourite-container .entry {
   margin-top: 40px;
 }
 
-/* line 1358, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1359, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .favourite-container .entry .category {
   color: #660088;
   font-size: 34px;
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1362, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1363, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .favourite-container .entry .dropdown-container {
   text-align: left;
 }
 
-/* line 1364, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1365, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .favourite-container .entry .dropdown-container .dropdown {
   display: inline-block;
   margin-top: 30px;
@@ -11172,7 +11173,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   height: 50px;
 }
 
-/* line 1371, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1372, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .favourite-container .entry .dropdown-container .dropdown .label {
   float: left;
   height: 100%;
@@ -11186,7 +11187,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1382, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1383, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .favourite-container .entry .dropdown-container .dropdown .box {
   float: left;
   width: 130px;
@@ -11196,7 +11197,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   position: relative;
 }
 
-/* line 1389, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1390, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .favourite-container .entry .dropdown-container .dropdown .box > select {
   width: 100%;
   height: 100%;
@@ -11205,7 +11206,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   background-color: #FFFFFF;
 }
 
-/* line 1395, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1396, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .favourite-container .entry .dropdown-container .dropdown .box .arrow {
   width: 35px;
   height: 48px;
@@ -11216,7 +11217,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   pointer-events: none;
 }
 
-/* line 1403, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1404, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page6 .favourite-container .entry .details {
   margin-top: 50px;
   color: #000000;
@@ -11226,95 +11227,95 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   letter-spacing: 1px;
 }
 
-/* line 1411, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1412, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 {
   min-height: 300px;
   overflow: hidden;
   margin: 50px 0;
 }
 
-/* line 1415, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1416, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .about-container .title {
   color: #000000;
   font-size: 24px;
   margin-bottom: 30px;
 }
 
-/* line 1419, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1420, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .about-container .short-description {
   color: #660088;
   font-size: 18px;
   padding-right: 10%;
 }
 
-/* line 1423, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1424, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .about-container .short-description > p {
   padding-bottom: 18px;
   line-height: 24px;
 }
 
-/* line 1426, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1427, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .about-container .image {
   text-align: left;
   padding-left: 30px;
 }
 
-/* line 1429, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1430, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .about-container .image > img {
   width: 100%;
   max-width: 460px;
   vertical-align: middle;
 }
 
-/* line 1433, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1434, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .about-container .long-description {
   margin-top: 50px;
   color: #000000;
   font-size: 18px;
 }
 
-/* line 1437, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1438, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .about-container .long-description.left {
   padding-right: 10%;
 }
 
-/* line 1439, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1440, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .about-container .long-description.right {
   padding-left: 30px;
 }
 
-/* line 1441, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1442, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .about-container .long-description > p {
   padding-bottom: 18px;
   line-height: 24px;
 }
 
-/* line 1444, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1445, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .about-container .long-description .greeting, .page7 .about-container .long-description .author {
   color: #660088;
   font-size: 24px;
 }
 
-/* line 1447, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1448, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .contact-container {
   margin-top: 100px;
 }
 
-/* line 1449, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1450, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .contact-container .title {
   color: #000000;
   font-size: 24px;
   margin: 30px 0;
 }
 
-/* line 1453, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1454, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .contact-container .name {
   font-family: "Poppins-SemiBold";
   margin-top: 20px;
   font-size: 14px;
 }
 
-/* line 1457, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1458, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .contact-container input[type="text"], .page7 .contact-container input[type="email"], .page7 .contact-container textarea {
   margin-top: 10px;
   border: 0;
@@ -11324,32 +11325,32 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   background-color: #FEECEA;
 }
 
-/* line 1464, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1465, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .contact-container input[type="text"]::-webkit-input-placeholder, .page7 .contact-container input[type="email"]::-webkit-input-placeholder, .page7 .contact-container textarea::-webkit-input-placeholder {
   color: #660088;
 }
 
-/* line 1466, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1467, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .contact-container input[type="text"]::-moz-placeholder, .page7 .contact-container input[type="email"]::-moz-placeholder, .page7 .contact-container textarea::-moz-placeholder {
   color: #660088;
 }
 
-/* line 1468, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1469, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .contact-container input[type="text"]:-ms-input-placeholder, .page7 .contact-container input[type="email"]:-ms-input-placeholder, .page7 .contact-container textarea:-ms-input-placeholder {
   color: #660088;
 }
 
-/* line 1470, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1471, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .contact-container textarea {
   min-height: 170px;
 }
 
-/* line 1472, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1473, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .contact-container .agreement-container {
   margin-top: 20px;
 }
 
-/* line 1474, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1475, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .contact-container .agreement-container .tickbox {
   float: left;
   width: 48px;
@@ -11357,12 +11358,12 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   background: url(/assets/checkbox-bbb6bf36d07e22eacb9e1c0b7af0a3b246eb74bd50336064b01709a56f79a9e3.png) no-repeat center center;
 }
 
-/* line 1479, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1480, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .contact-container .agreement-container .tickbox.selected {
   background-image: url(/checkbox_selected.png);
 }
 
-/* line 1481, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1482, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .contact-container .agreement-container .agreement {
   font-size: 16px;
   margin-left: 100px;
@@ -11371,13 +11372,13 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1487, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1488, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .contact-container .action-container {
   margin: 20px 0;
   text-align: center;
 }
 
-/* line 1490, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1491, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page7 .contact-container .action-container > input[type="submit"] {
   border: 1px solid #660088;
   padding: 10px 15px;
@@ -11386,19 +11387,19 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   background-color: #FFFFFF;
 }
 
-/* line 1497, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1498, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 {
   min-height: 300px;
   overflow: hidden;
   margin: 50px 0;
 }
 
-/* line 1501, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1502, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .feature-container {
   margin-top: 20px;
 }
 
-/* line 1503, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1504, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .feature-container .description {
   color: #660088;
   font-size: 13px;
@@ -11407,19 +11408,19 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1509, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1510, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .cans-container {
   margin-top: 50px;
 }
 
-/* line 1511, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1512, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .cans-container .title {
   color: #660088;
   font-size: 24px;
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1515, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1516, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .cans-container .cans-content {
   margin-top: 50px;
   text-align: center;
@@ -11428,7 +11429,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   overflow: hidden;
 }
 
-/* line 1521, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1522, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .cans-container .cans-content .arrow {
   position: absolute;
   top: 50px;
@@ -11440,43 +11441,43 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   z-index: 9;
 }
 
-/* line 1530, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1531, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .cans-container .cans-content .arrow.left {
   left: 0;
   background-image: url(/assets/arrow_left-0d7d4e448729f1c3e10f0f11fcba087aa78ef180e3d0453736440a05975acb6f.png);
 }
 
-/* line 1533, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1534, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .cans-container .cans-content .arrow.right {
   right: 0;
   background-image: url(/assets/arrow_right-18f3e6f19a06576017b49cbc22f26f3072eae46ac50a2ef9ccf68020b4451ce9.png);
 }
 
-/* line 1536, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1537, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .cans-container .cans-content .entries {
   padding-left: 60px;
   padding-right: 60px;
 }
 
-/* line 1539, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1540, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .cans-container .cans-content .entries .entry {
   padding-bottom: 20px;
   display: inline-block;
 }
 
-/* line 1542, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1543, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .cans-container .cans-content .entries .entry .image {
   width: 100%;
   height: 140px;
   background: url(/pepper_can_violet.png) no-repeat center center;
 }
 
-/* line 1546, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1547, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .cans-container .cans-content .entries .entry .image.selected {
   background-image: url(/pepper_can_violet_selected.png);
 }
 
-/* line 1548, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1549, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .cans-container .cans-content .entries .entry .name {
   width: 100%;
   color: #660088;
@@ -11486,12 +11487,12 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   letter-spacing: 1px;
 }
 
-/* line 1555, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1556, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .cans-container .cans-content .entries .entry.selected .name {
   color: #000000;
 }
 
-/* line 1557, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1558, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .note-container {
   /* margin: 50px 5% 40px; */
   padding: 30px 0;
@@ -11501,7 +11502,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   border-bottom: 1px solid #101010;
 }
 
-/* line 1564, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1565, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .note-container .triangle {
   position: absolute;
   left: 0;
@@ -11514,18 +11515,18 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   height: 38px;
 }
 
-/* line 1574, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1575, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .note-container .note-content {
   min-height: 50px;
   overflow: hidden;
 }
 
-/* line 1577, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1578, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .note-container .note-content .note-image {
   text-align: center;
 }
 
-/* line 1579, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1580, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .note-container .note-content .title {
   color: #000000;
   font-family: "Poppins-SemiBold";
@@ -11535,7 +11536,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   line-height: 32px;
 }
 
-/* line 1586, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1587, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .note-container .note-content .fresh {
   color: #660088;
   font-family: "Poppins-SemiBold";
@@ -11544,7 +11545,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   line-height: 18px;
 }
 
-/* line 1592, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1593, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .note-container .note-content .description {
   margin-top: 25px;
   font-size: 16px;
@@ -11552,12 +11553,12 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   letter-spacing: 1px;
 }
 
-/* line 1597, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1598, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .note-container .note-content .action {
   margin-top: 50px;
 }
 
-/* line 1599, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1600, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .note-container .note-content .action > a {
   color: #660088;
   font-family: "Poppins-SemiBold";
@@ -11565,19 +11566,19 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   font-size: 18px;
 }
 
-/* line 1604, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1605, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .tags-container {
   margin-bottom: 50px;
 }
 
-/* line 1606, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1607, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .tags-container .entries {
   text-align: center;
   padding: 0 8%;
   margin-top: 50px;
 }
 
-/* line 1610, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1611, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .tags-container .entries .entry {
   font-size: 13px;
   border: 1px solid #660091;
@@ -11589,32 +11590,32 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1620, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1621, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 {
   min-height: 300px;
   overflow: hidden;
   margin: 50px 0;
 }
 
-/* line 1624, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1625, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container {
   margin: 20px 0 50px;
 }
 
-/* line 1626, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1627, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container .top {
   margin: 20px 0;
   position: relative;
 }
 
-/* line 1629, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1630, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container .top .arrows-container {
   margin-top: 10px;
   min-height: 10px;
   overflow: hidden;
 }
 
-/* line 1633, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1634, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container .top .arrows-container .arrow {
   width: 46px;
   height: 25px;
@@ -11622,24 +11623,24 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   cursor: pointer;
 }
 
-/* line 1638, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1639, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container .top .arrows-container .arrow.left {
   float: left;
 }
 
-/* line 1640, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1641, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container .top .arrows-container .arrow.right {
   float: right;
 }
 
-/* line 1642, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1643, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container .top .title {
   font-size: 42px;
   text-align: center;
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1646, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1647, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container .entries-container .entry {
   margin: 20px 0;
   min-height: 10px;
@@ -11647,7 +11648,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   width: 25%;
 }
 
-/* line 1651, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1652, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container .entries-container .entry .image > img {
   width: 100%;
   vertical-align: middle;
@@ -11657,7 +11658,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   display: inline-block;
 }
 
-/* line 1658, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1659, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container .entries-container .entry .name {
   font-size: 10px;
   margin-top: 10px;
@@ -11665,7 +11666,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   letter-spacing: 1px;
 }
 
-/* line 1663, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1664, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container .entries-container .entry .description {
   color: #000000;
   margin-top: 10px;
@@ -11676,7 +11677,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   max-width: 70%;
 }
 
-/* line 1671, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1672, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container .entries-container .entry .action {
   float: left;
   margin-top: 20px;
@@ -11687,66 +11688,66 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   font-family: "Poppins-SemiBold";
 }
 
-/* line 1679, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1680, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container.green .top .arrows-container .arrow.left {
   background-image: url(/assets/arrow_left_green-8a3e174cf74b1a42542f6dcc882769649aa3fb30ed09455eff649dad9294de01.png);
 }
 
-/* line 1681, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1682, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container.green .top .arrows-container .arrow.right {
   background-image: url(/assets/arrow_right_green-a55c4ea79b47d6bf2c4b3dcb6b36f1e9c357675ef8ba2f861d8dcd71203ac1f1.png);
 }
 
-/* line 1683, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1684, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container.green .top .title {
   color: #30c183;
 }
 
-/* line 1685, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1686, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container.green .entries-container .entry .name {
   color: #30c183;
 }
 
-/* line 1687, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1688, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container.green .entries-container .entry .action {
   color: #30c183;
   border-color: #30c183;
 }
 
-/* line 1690, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1691, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container.red .top .arrows-container .arrow.left {
   background-image: url(/assets/arrow_left_red-82e0c46c7d0a09b4872ededca1cb82bb98e2d31517aff6e47c2bc454e405d12e.png);
 }
 
-/* line 1692, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1693, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container.red .top .arrows-container .arrow.right {
   background-image: url(/assets/arrow_right_red-a199018c679cd9b1072d341dbc690bd6ad4beab6e2294a224030e71a9d8b3858.png);
 }
 
-/* line 1694, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1695, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container.red .top .title {
   color: #EF1F55;
 }
 
-/* line 1696, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1697, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container.red .entries-container .entry .name {
   color: #EF1F55;
 }
 
-/* line 1698, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1699, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page9 .block-container.red .entries-container .entry .action {
   color: #EF1F55;
   border-color: #EF1F55;
 }
 
-/* line 1702, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1703, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page10 {
   min-height: 300px;
   overflow: hidden;
   margin: 50px 0;
 }
 
-/* line 1706, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1707, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page10 .title {
   color: #660088;
   font-family: "Poppins-SemiBold";
@@ -11754,12 +11755,12 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   margin: 10px 0;
 }
 
-/* line 1711, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1712, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page10 .inspire-container {
   margin-bottom: 30px;
 }
 
-/* line 1713, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1714, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page10 .inspire-container .name {
   color: #000000;
   font-size: 52px;
@@ -11767,7 +11768,7 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   margin-top: 30px;
 }
 
-/* line 1718, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1719, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page10 .inspire-container .details {
   color: #660088;
   font-family: "Poppins-SemiBold";
@@ -11777,477 +11778,477 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 991px) {
-  /* line 1726, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1727, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .login-container {
     width: 96%;
     margin: 5px;
   }
 
-  /* line 1729, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1730, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .login-container .login-content .data-container .auth-container .email-auth, body .login-container .login-content .data-container .auth-container .social-auth {
     padding: 25px;
   }
 
-  /* line 1731, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1732, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .header {
     min-height: 225px;
   }
 
-  /* line 1733, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1734, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .header .header-content .logo-container {
     margin-left: 10px;
     width: 30%;
   }
 
-  /* line 1736, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1737, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .header .header-content .actions {
     width: 50%;
   }
 
-  /* line 1738, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1739, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .header .header-content .search-box-container {
     clear: both;
     width: 100%;
     margin-bottom: 0;
   }
 
-  /* line 1742, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1743, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .footer {
     padding: 20px;
   }
 
-  /* line 1744, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1745, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .push-up-180 {
     margin-top: -50px;
   }
 
-  /* line 1746, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1747, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .recipes-container {
     padding: 0 20px;
   }
 
-  /* line 1748, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1749, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .recipes-container .entry {
     text-align: center;
     margin: 40px 0;
   }
 
-  /* line 1751, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1752, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .recipes-container .entry .action-container {
     max-width: 100%;
     padding: 0 20px;
   }
 
-  /* line 1754, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1755, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .recipes-container .entry .action-container .action {
     width: 100%;
     float: none;
     margin: 10px 5px;
   }
 
-  /* line 1758, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1759, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .recipes-container .entry .action-container .delete {
     clear: both;
     float: none;
     margin: 10px 5px;
   }
 
-  /* line 1762, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1763, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .recipes-container .entry .description {
     max-width: 100%;
     min-height: 30px;
   }
 
-  /* line 1765, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1766, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .blocks-container {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  /* line 1768, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1769, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .blocks-container .entry.entry-left, body .blocks-container .entry.entry-right {
     text-align: center;
   }
 
-  /* line 1770, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1771, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page1 .search-container .search-content .search-action {
     font-size: 14px;
     padding: 20px;
   }
 
-  /* line 1773, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1774, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page1 .latest-container {
     padding: 20px;
   }
 
-  /* line 1775, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1776, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page1 .latest-container .entries-container .entry {
     text-align: center;
     margin: 40px 0;
   }
 
-  /* line 1778, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1779, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page1 .latest-container .entries-container .entry .label {
     text-align: center;
   }
 
-  /* line 1780, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1781, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page1 .week-subscribe-container {
     padding: 0 20px;
   }
 
-  /* line 1782, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1783, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page1 .week-subscribe-container .subscribe-container {
     float: none;
     margin: 10px auto;
   }
 
-  /* line 1785, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1786, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page2 .ingredients-container {
     padding: 0 10px;
   }
 
-  /* line 1787, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1788, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page2 .ingredients-container .entries-container .entry {
     float: none;
     width: 100%;
   }
 
-  /* line 1790, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1791, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page2 .ingredients-container .entries-container .entry .description {
     max-width: 100%;
   }
 
-  /* line 1792, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1793, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page2 .dish-container {
     padding: 0 10px;
   }
 
-  /* line 1794, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1795, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page2 .dish-container .entries .entry {
     float: none;
     width: 100%;
   }
 
-  /* line 1797, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1798, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page2 .occasions-container {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  /* line 1800, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1801, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page2 .occasions-container .entries-container .entry .image {
     text-align: center;
   }
 
-  /* line 1802, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1803, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page2 .occasions-container .entries-container .entry .label {
     text-align: center;
   }
 
-  /* line 1804, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1805, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page2 .meals-container {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  /* line 1807, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1808, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page2 .meals-container .entries-container .entry .image {
     text-align: center;
   }
 
-  /* line 1809, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1810, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page2 .meals-container .entries-container .entry .label {
     text-align: center;
   }
 
-  /* line 1811, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1812, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page3 .picture {
     text-align: center;
   }
 
-  /* line 1813, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1814, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page3 .overview, body .page3 .conditions, body .page3 .tags, body .page3 .bottom, body .page3 .hero-ingredient {
     margin: 10px;
   }
 
-  /* line 1815, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1816, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page3 .ingredients, body .page3 .method {
     margin: 50px 10px 10px 10px;
   }
 
-  /* line 1817, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1818, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .events-container {
     padding: 0 10px;
   }
 
-  /* line 1819, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1820, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .events-container .arrows-container {
     margin-top: 20px;
   }
 
-  /* line 1821, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1822, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .win-container {
     padding: 0 10px;
   }
 
-  /* line 1823, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1824, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .win-container .win-content .entries-container {
     width: 100%;
   }
 
-  /* line 1825, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1826, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .win-container .win-content .entries-container .entry {
     margin: 0 10px;
     padding: 10px;
   }
 
-  /* line 1828, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1829, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .win-container .win-content .entries-container .entry .description {
     font-size: 16px;
     line-height: 20px;
   }
 
-  /* line 1831, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1832, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .win-container .win-content .arrow-container {
     width: 100%;
   }
 
-  /* line 1833, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1834, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .win-container .win-content .arrow-container .arrow {
     margin: 20px;
   }
 
-  /* line 1835, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1836, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .interview-container {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  /* line 1838, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1839, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .interview-container .entries-container {
     text-align: center;
   }
 
-  /* line 1840, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1841, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .interview-container .entries-container .entry {
     float: none;
     display: inline-block;
   }
 
-  /* line 1843, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1844, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .interview-container .entries-container .entry .image {
     text-align: center;
   }
 
-  /* line 1845, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1846, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .interview-container .entries-container .entry .label {
     text-align: center;
     margin-top: 5px;
   }
 
-  /* line 1848, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1849, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .press-container {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  /* line 1851, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1852, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .press-container .press-content {
     padding: 0 80px;
   }
 
-  /* line 1853, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1854, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page5 .interview-container {
     padding: 0 10px;
   }
 
-  /* line 1855, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1856, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page5 .interview-container .details .share {
     margin-top: 30px;
     width: 100%;
   }
 
-  /* line 1858, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1859, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page5 .interview-container .details .share .links {
     text-align: left;
   }
 
-  /* line 1860, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1861, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page5 .small-panel {
     padding: 0;
     text-align: center;
   }
 
-  /* line 1863, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1864, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page5 .small-panel .title {
     margin-top: 100px;
   }
 
-  /* line 1865, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1866, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page5 .discussion {
     padding: 0 20px;
   }
 
-  /* line 1867, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1868, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page6 .spots-container {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  /* line 1870, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1871, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page6 .spots-container .entry {
     float: none;
     width: 100%;
   }
 
-  /* line 1873, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1874, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page6 .favourite-container {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  /* line 1876, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1877, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page7 .about-container {
     padding: 10px;
   }
 
-  /* line 1878, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1879, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page7 .about-container .image {
     padding-left: 0;
     text-align: center;
   }
 
-  /* line 1881, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1882, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page7 .about-container .long-description.right {
     padding-left: 0;
   }
 
-  /* line 1883, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1884, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page7 .contact-container {
     padding: 10px;
   }
 
-  /* line 1885, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1886, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page7 .contact-container .agreement-container .agreement {
     width: 100%;
     margin: 5px 0;
     clear: both;
   }
 
-  /* line 1889, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1890, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page8 .feature-container, body .page8 .cans-container, body .page8 .tags-container {
     margin: 10px;
   }
 
-  /* line 1891, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1892, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page8 .note-container {
     padding: 10px;
   }
 
-  /* line 1893, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1894, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page9 .block-container {
     padding: 0 20px;
   }
 
-  /* line 1895, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1896, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page9 .block-container .entries-container .entry {
     text-align: center;
     margin: 40px 0;
   }
 
-  /* line 1898, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1899, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page9 .block-container .entries-container .entry .image {
     text-align: center;
   }
 
-  /* line 1900, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1901, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page9 .block-container .entries-container .entry .action {
     float: none;
     margin-top: 10px;
   }
 
-  /* line 1903, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1904, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page9 .block-container .entries-container .entry .description {
     max-width: 100%;
   }
 
-  /* line 1905, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1906, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page10 .title {
     padding: 0 20px;
     font-size: 32px;
   }
 
-  /* line 1908, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1909, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page10 .inspire-container {
     padding: 0 20px;
   }
 
-  /* line 1910, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1911, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page10 .inspire-container .name {
     font-size: 26px;
   }
 
-  /* line 1912, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1913, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page10 .inspire-container .details {
     font-size: 20px;
   }
 }
 @media (max-width: 767px) {
-  /* line 1916, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1917, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .header .actions {
     padding: 0;
     margin-right: 20px;
   }
 
-  /* line 1919, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1920, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .footer .links {
     margin-top: 30px;
   }
 
-  /* line 1921, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1922, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .footer .links .entries {
     margin: 0;
   }
 
-  /* line 1923, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1924, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .footer .links .entries li {
     margin-top: 10px;
   }
 
-  /* line 1925, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1926, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page1 .week-subscribe-container .title {
     padding-left: 20px;
   }
 
-  /* line 1927, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1928, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page1 .week-subscribe-container .subscribe-container {
     max-width: none;
   }
 
-  /* line 1929, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1930, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page1 .week-subscribe-container .week-container {
     margin: 20px;
   }
 
-  /* line 1931, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1932, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page1 .week-subscribe-container .week-container .bottom .description, body .page1 .week-subscribe-container .week-container .bottom .action-container {
     float: none;
     width: 100%;
   }
 
-  /* line 1934, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1935, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page3 .dish-container .conditions {
     text-align: center;
   }
 
-  /* line 1936, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1937, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page3 .dish-container .conditions .entry {
     float: none;
     display: inline-block;
   }
 
-  /* line 1939, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1940, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page3 .dish-container .conditions .action {
     float: none;
     display: inline-block;
@@ -12255,78 +12256,78 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
     clear: both;
   }
 
-  /* line 1944, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1945, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page3 .bottom .share, body .page3 .bottom .review {
     width: 100%;
     margin-top: 30px;
   }
 
-  /* line 1947, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1948, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page3 .notes-container {
     padding: 0 10px;
   }
 
-  /* line 1949, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1950, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page3 .notes-container .kitchen .category {
     margin: 10px;
   }
 
-  /* line 1951, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1952, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page3 .notes-container .kitchen .entries {
     margin: 10px;
   }
 
-  /* line 1953, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1954, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page3 .notes-container .kitchen .entries .entry {
     width: 100%;
     text-align: center;
   }
 
-  /* line 1956, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1957, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page4 .events-container .entry .right {
     width: 100%;
   }
 
-  /* line 1958, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1959, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page6 .map-container .title {
     font-size: 18px;
     top: 20px;
   }
 
-  /* line 1961, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1962, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .page6 .favourite-container .entry .dropdown-container .dropdown .label {
     width: 100px;
   }
 }
 @media (max-width: 480px) {
-  /* line 1965, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  /* line 1966, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .header {
     min-height: 190px;
   }
 }
-/* line 1968, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1969, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .carousel-control.left, .carousel-control.right {
   background: transparent;
 }
 
-/* line 1971, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1972, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .carousel-inner > .item > img, .carousel-inner > .item > a > img, .homepage-image {
   width: 100%;
 }
 
-/* line 1974, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1975, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 #map {
   width: 100%;
   min-height: 500px;
 }
 
-/* line 1978, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1979, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .invert-button-colors:hover {
   color: white !important;
   background-color: #660088 !important;
 }
 
-/* line 1982, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1983, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .top-line {
   position: fixed;
   top: 0;
@@ -12337,18 +12338,18 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   background: #919191;
 }
 
-/* line 1991, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1992, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .page8 .cans-container .cans-content .entries .entry.slick-current {
   border-bottom: 20px solid #660088;
 }
 
-/* line 1994, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1995, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .invert-green-button-colors:hover {
   background-color: white !important;
   color: #30c183 !important;
 }
 
-/* line 1998, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+/* line 1999, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 .carousel-inner .item {
   background-size: cover;
   background-position: center center;

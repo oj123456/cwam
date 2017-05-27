@@ -19,10 +19,21 @@
                 <img src="<%= event.image.url %>"/>
               </div>
               <div class="name"><%= event.title %><br /><%= event.tag_line %></div>
-              <div class="details">
-                <div class="label">WHEN</div>
-                <div class="value"><%= event.formatted_date %></div>
-              </div>
+              <% if event.end_date %>
+                <div class="details">
+                  <div class="label">FROM</div>
+                  <div class="value"><%= event.format_date(event.start_date) %></div>
+                </div>
+                <div class="details">
+                  <div class="label">TO</div>
+                  <div class="value"><%= event.format_date(event.end_date) %></div>
+                </div>
+              <% else %>
+                <div class="details">
+                  <div class="label">WHEN</div>
+                  <div class="value"><%= event.format_date(event.start_date) %></div>
+                </div>
+              <% end %>
               <div class="details">
                 <div class="label">WHERE</div>
                 <div class="value"><%= event.location %></div>

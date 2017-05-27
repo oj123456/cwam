@@ -21,6 +21,7 @@
 #  image_2_content_type :string
 #  image_2_file_size    :integer
 #  image_2_updated_at   :datetime
+#  event_date           :datetime
 #
 
 class Event < ApplicationRecord
@@ -42,7 +43,7 @@ class Event < ApplicationRecord
   validates_attachment_content_type :image_2, :content_type => /\Aimage\/.*\Z/
 
 
-  def formatted_date
-    return self.start_date.strftime("%A, %d of %B, %Y starting %I %p")
+  def format_date(date)
+    return date.strftime("%A, %d of %B, %Y starting %I %p")
   end
 end
