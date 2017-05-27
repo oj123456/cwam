@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170527192446) do
+ActiveRecord::Schema.define(version: 20170527210038) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -69,6 +69,7 @@ ActiveRecord::Schema.define(version: 20170527192446) do
     t.integer  "image_2_file_size"
     t.datetime "image_2_updated_at"
     t.datetime "end_date"
+    t.boolean  "on_homepage"
   end
 
   create_table "homepage_images", force: :cascade do |t|
@@ -107,6 +108,7 @@ ActiveRecord::Schema.define(version: 20170527192446) do
     t.string   "horizontal_image_content_type"
     t.integer  "horizontal_image_file_size"
     t.datetime "horizontal_image_updated_at"
+    t.boolean  "on_homepage"
   end
 
   create_table "kitchen_helpers", force: :cascade do |t|

@@ -1,6 +1,6 @@
 <%
-  latest_interviews = Interview.limit(2).order(id: :desc)
-  latest_events = Event.limit(2).order(id: :desc)
+  latest_interviews = Interview.where(on_homepage: true).limit(2)
+  latest_events = Event.where(on_homepage: true).limit(2)
 %>
 
 <div class="row latest-container">

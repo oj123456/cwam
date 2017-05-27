@@ -21,7 +21,8 @@
 #  image_2_content_type :string
 #  image_2_file_size    :integer
 #  image_2_updated_at   :datetime
-#  event_date           :datetime
+#  end_date             :datetime
+#  on_homepage          :boolean
 #
 
 class Event < ApplicationRecord

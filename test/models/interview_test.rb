@@ -17,6 +17,7 @@
 #  horizontal_image_content_type :string
 #  horizontal_image_file_size    :integer
 #  horizontal_image_updated_at   :datetime
+#  on_homepage                   :boolean
 #
 
 require 'test_helper'
