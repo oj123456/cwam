@@ -153,8 +153,16 @@
           <div class="entries-container" id="slider_press">
             <% @press_releases.each do |press_release| %>
               <div class="entry">
-                <div class="image"><img src="<%= press_release.image.url %>"/></div>
-                <div class="label"><a targer="_blank" href="<%= press_release.url %>"><%= press_release.title %></a></div>
+                <div class="image">
+                  <a href="<%= press_release.image.url %>" target="_blank">
+                    <img src="<%= press_release.image.url %>"/>
+                  </a>
+                </div>
+                <% if press_release.url %>
+                  <div class="label"><a targer="_blank" href="<%= press_release.url %>"><%= press_release.title %></a></div>
+                <% else %>
+                  <div class="label"><%= press_release.title %></div>
+                <% end %>
               </div>
             <% end %>
           </div>

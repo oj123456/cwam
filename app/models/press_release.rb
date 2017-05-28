@@ -18,8 +18,8 @@
 class PressRelease < ApplicationRecord
   before_create :generate_slug
 
-  validates_presence_of :title, :image, :url
-  validates :url, :format => URI::regexp(%w(http https))
+  validates_presence_of :title, :image
+  # validates :url, :format => URI::regexp(%w(http https))
   if Rails.env.production?
     has_attached_file :image, { :path => "/var/www/public/images/press_release/:id/:filename", :url  => "/images/press_release/:id/:filename" }
   else

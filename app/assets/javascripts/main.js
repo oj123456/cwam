@@ -61,8 +61,8 @@ $(document).ready(function () {
     speed: 300,
     slidesToShow: 2,
     slidesToScroll: 2,
-    prevArrow: $('#slider_events_previous'),
-    nextArrow: $('#slider_events_next'),
+    prevArrow: $('#slider_events_next'),
+    nextArrow: $('#slider_events_previous'),
     responsive: [
       {
         breakpoint: 480,
