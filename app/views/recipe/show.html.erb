@@ -150,7 +150,7 @@
     <div class="col-md-10 col-md-offset-1">
       <div class="row">
         <% if @recipe.spices.count > 0 %>
-          <div class="col-md-12 title">Take note! This recipe use the following:</div>
+          <div class="col-md-12 title">Take note! This recipe uses the following:</div>
         <% else %>
           <div class="col-md-12 title">Take note! This recipe doesn't require any spices.</div>
         <% end %>
@@ -159,7 +159,6 @@
       <% if @recipe.spices.count > 0 %>
         <div class="row">
           <div class="spice col-md-12 col-sm-12">
-            <div class="category">Spice Rack</div>
             <div class="entries">
               <% @recipe.spices.each do |spice| %>
                 <div class="entry">
