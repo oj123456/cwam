@@ -26,4 +26,12 @@ class PressRelease < ApplicationRecord
     has_attached_file :image
   end
   validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
+
+  def showing_url
+    if self.url.empty?
+      return self.image.url
+    else
+      return self.url
+    end
+  end
 end
