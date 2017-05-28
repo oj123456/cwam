@@ -9057,6 +9057,11 @@ body .push-up-180 {
   margin-top: -180px;
 }
 
+/* line 93, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+body .push-up-280 {
+  margin-top: -280px;
+}
+
 /* line 94, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
 body .ads-container-790-96, body .ads-container-790-160 {
   text-align: center;
@@ -11819,6 +11824,11 @@ body .footer .engagement .subscribe .action > input[type=email]:-ms-input-placeh
   /* line 1744, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
   body .push-up-180 {
     margin-top: -50px;
+  }
+
+  /* line 1745, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
+  body .push-up-280 {
+    margin-top: -150px;
   }
 
   /* line 1746, /Users/rockhalil/Desktop/Freelance/Clients/CWAM/cwam_rails/app/assets/stylesheets/styles.css.erb */
