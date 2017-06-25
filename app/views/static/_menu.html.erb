@@ -32,26 +32,17 @@
             <li><a href="<%= helpers_path %>#spices">SPICE RACK</a></li>
           </ul>
         </div>
-        <!-- <div class="col&#45;md&#45;2 col&#45;sm&#45;4 links"> -->
-        <!--   <div class="title"> -->
-        <!--     <a href="<%= restaurants_path %>">RESTAURANTS</a> -->
-        <!--   </div> -->
-        <!--   <ul class="entries"> -->
-        <!--     <li><a href="<%= restaurants_path %>#">NEW SPOTS</a></li> -->
-        <!--     <li><a href="<%= restaurants_path %>#">FAVORITE SPOT</a></li> -->
-        <!--   </ul> -->
-        <!-- </div> -->
         <div class="col-md-2 col-sm-4 links">
-          <div class="col-md-2 col-sm-4 links">
-            <div class="title">
-              <a href="<%= root_path %>about">ABOUT US</a>
-            </div>
-            <ul class="entries">
-              <li><a href="<%= root_path %>about#contact">CONTACT US</a></li>
-            </ul>
+          <div class="title">
+            <a href="<%= about_path %>">ABOUT US</a>
           </div>
-          <div class="close-action" id="menu_close"></div>
         </div>
+        <div class="col-md-2 col-sm-4 links">
+          <div class="title">
+            <a href="<%= about_path %>#contact">CONTACT US</a>
+          </div>
+        </div>
+        <div class="close-action" id="menu_close"></div>
       </div>
     </div>
   </div>
