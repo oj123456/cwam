@@ -25,7 +25,7 @@ class Interview < ApplicationRecord
 
   has_many :interview_questions
 
-  validates_presence_of :title, :position, :image, :horizontal_image
+  validates_presence_of :title, :image, :horizontal_image
 
   if Rails.env.production?
     has_attached_file :image, { :path => "/var/www/public/images/interview/:id/:filename", :url  => "/images/interview/:id/:filename" }
@@ -34,7 +34,7 @@ class Interview < ApplicationRecord
   end
 
   validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
-  
+
   if Rails.env.production?
     has_attached_file :horizontal_image, { :path => "/var/www/public/images/interview/:id/:filename", :url  => "/images/interview/:id/:filename" }
   else
