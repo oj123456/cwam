@@ -4,6 +4,7 @@ class NewsController < ApplicationController
     @page_title = page_seo.title
     fill_seo(page_seo.title, page_seo.description, page_seo.keywords, page_seo.image.url)
 
+    @dining_out = InteractiveImage.where(location: :dining_out)
     @advertisment = Advertisment.where(location: Advertisment.locations[:events_page]).order("RANDOM()").first
     @events = Event.all.order(created_at: :desc)
     @competitions = Competition.all.order(created_at: :desc)

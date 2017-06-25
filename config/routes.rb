@@ -20,7 +20,7 @@ Rails.application.routes.draw do
   get 'recipe/details/:slug', to: 'recipe#show', as: 'recipe_detail'
 
   get 'helpers', to: 'helpers#index'
-  get 'news', to: 'news#index'
+  get 'foodie_station', to: 'news#index', as: 'news'
 
   get 'about', to: 'about#index'
   post 'contact', to: 'about#submit_contact'

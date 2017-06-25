@@ -297,6 +297,9 @@ RailsAdmin.config do |config|
     end
   end
   config.model HomepageImage do
+    visible(false)
+  end
+  config.model InteractiveImage do
     weight 0
   end
   config.model SeoData do
