@@ -2005,7 +2005,7 @@ min-height: 190px; } }
 .carousel-inner .item{
   background-size: cover;
   background-position: center center;
-  height: 500px;
+  height: calc(100vh - 120px);
 }
 
 .carousel-inner .item h2{
@@ -2015,4 +2015,16 @@ min-height: 190px; } }
   font-size: 3em;
   text-align: center;
   width: 100%;
+}
+
+@media (max-width: 991px) {
+  .carousel-inner .item{
+    height: calc(100vh - 225px);
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-inner .item{
+    height: calc(100vh - 190px);
+  }
 }
