@@ -19,7 +19,7 @@
           <div class="arrow left" id="slider_cans_previous"></div>
           <div class="entries" id="slider_cans">
             <% @spices.each do |spice| %>
-              <div class="entry" data-fresh="<%= spice.fresh? %>" data-name="<%= spice.title %>" data-description="<%= spice.description %>" data-image="<%= spice.image.url %>" data-url="<%= recipe_listing_path(spice: spice.slug) %>">
+              <div class="spices_rack entry" data-fresh="<%= spice.fresh? %>" data-name="<%= spice.title %>" data-description="<%= spice.description %>" data-image="<%= spice.image.url %>" data-url="<%= recipe_listing_path(spice: spice.slug) %>">
                 <div class="image" style="background-image:url('<%= spice.image.url %>')"></div>
                 <div class="name"><%= spice.title.upcase %></div>
               </div>

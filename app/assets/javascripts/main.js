@@ -295,6 +295,10 @@ $(document).ready(function () {
     });
   }
 
+  $(".spices_rack.slick-slide").on("click", function() {
+    spices_rack.slick( "goTo", $(this).data("slick-index") );
+  })
+
   $("[is-newsletter=1]").on("click", function(){
     var currentStatus = $("#newsletter").val();
     var image = "";
