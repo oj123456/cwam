@@ -12,7 +12,7 @@
           <div class="overview">
             <div class="category"><%= @recipe.dish_types.map(&:title).join(', ').upcase %></div>
             <div class="name"><%= @recipe.title %></div>
-            <div class="note-label">NOTE FROM THE AUTHOR</div>
+            <!-- <div class="note-label">NOTE FROM THE AUTHOR</div> -->
             <div class="note-text"><%= @recipe.description.html_safe %></div>
           </div>
           <div class="hero-ingredient">
@@ -36,6 +36,7 @@
             <a href="javascript:;" is-add-recipe="1" data-id="<%= @recipe.id %>">
               <div class="action">
                 <div class="label">ADD TO RECIPE BOX</div>
+                <div class="sub-label">Collect your favourite recipes. Create a profile and start adding them to your own recipe box.</div>
               </div>
             </a>
           </div>
