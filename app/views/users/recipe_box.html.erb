@@ -10,7 +10,9 @@
 					<div class="col-md-3 col-sm-6" is-recipe="1" data-id="<%= recipe.id %>">
 						<div class="entry">
 							<div class="image">
-								<img src="<%= recipe.image.url %>" />
+								<a href="<%= recipe_detail_path(slug: recipe.slug) %>">
+									<img src="<%= recipe.image.url %>" />
+								</a>
 							</div>
 							<div class="name"><%= recipe.dish_types_concat %></div>
 							<div class="description"><%= recipe.title %></div>

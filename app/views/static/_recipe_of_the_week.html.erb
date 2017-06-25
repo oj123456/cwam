@@ -8,7 +8,9 @@
     <% if recipe %>
       <div class="week-container">
         <div class="image">
-          <img src="<%= recipe.horizontal_image.url %>" alt="<%= recipe.title %>" title="<%= recipe.title %>" />
+          <a href="<%= recipe_detail_path(slug: recipe.slug) %>">
+            <img src="<%= recipe.horizontal_image.url %>" alt="<%= recipe.title %>" title="<%= recipe.title %>" />
+          </a>
         </div>
         <div class="label"><%= recipe.dish_types_concat %></div>
         <div class="name">
