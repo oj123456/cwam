@@ -15,7 +15,7 @@
 #
 
 class HomepageImage < ApplicationRecord
-  validates_presence_of :title, :image
+  validates_presence_of :title, :image, :description
   validates :url, :format => URI::regexp(%w(http https)), :allow_blank => true
   if Rails.env.production?
     has_attached_file :image, { :path => "/var/www/public/images/homepage/:id/:filename", :url  => "/images/homepage/:id/:filename" }

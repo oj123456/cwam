@@ -1,21 +1,12 @@
 <div class="page1">
 
-  <div class="row">
-    <div class="col-md-12">
-      <% if @homepage_images.count > 1 %>
+  <% if @homepage_images.count > 0 %>
+    <div class="row">
+      <div class="col-md-12">
         <%= render partial: 'static/carousel', :locals => {:images => @homepage_images, :carousel_name => "homepage_carousel"} %>
-      <%
-        elsif @homepage_images.count == 1
-        selected_image = @homepage_images.first
-      %>
-          <div class="search-container">
-            <a href="<%= selected_image.url %>" title="<%= selected_image.title %>" target="_blank">
-              <img class="homepage-image" src="<%= selected_image.image.url %>" alt="<%= selected_image.title %>" title="<%= selected_image.title %>" />
-            </a>
-          </div>
-      <% end %>
+      </div>
     </div>
-  </div>
+  <% end %>
 
   <%= render partial: 'static/recipe_of_the_week', :locals => {:recipe => @recipe_of_the_week} %>
   <%= render partial: 'static/advertisment', :locals => {:advertisment => @advertisment, :left_image => (asset_path 'advertisment_homepage') } %>
