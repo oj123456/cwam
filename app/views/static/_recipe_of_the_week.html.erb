@@ -5,27 +5,29 @@
     </div>
   </div>
   <div class="col-md-6 col-md-offset-1">
-    <div class="week-container">
-      <div class="image">
-        <img src="<%= recipe.horizontal_image.url %>" alt="<%= recipe.title %>" title="<%= recipe.title %>" />
-      </div>
-      <div class="label"><%= recipe.dish_types_concat %></div>
-      <div class="name">
-        <%= recipe.title %>
-      </div>
-      <div class="bottom">
-        <div class="description">
-          <%= recipe.description.html_safe %>
+    <% if recipe %>
+      <div class="week-container">
+        <div class="image">
+          <img src="<%= recipe.horizontal_image.url %>" alt="<%= recipe.title %>" title="<%= recipe.title %>" />
         </div>
-        <div class="action-container">
-          <a href="<%= recipe_detail_path(slug: recipe.slug) %>">
-            <div class="action invert-button-colors">
-              GET RECIPE
-            </div>
-          </a>
+        <div class="label"><%= recipe.dish_types_concat %></div>
+        <div class="name">
+          <%= recipe.title %>
+        </div>
+        <div class="bottom">
+          <div class="description">
+            <%= recipe.description.html_safe %>
+          </div>
+          <div class="action-container">
+            <a href="<%= recipe_detail_path(slug: recipe.slug) %>">
+              <div class="action invert-button-colors">
+                GET RECIPE
+              </div>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    <% end %>
   </div>
   <div class="col-md-4">
     <div class="subscribe-container">

@@ -17,14 +17,16 @@
               <li role="presentation"><%= link_to('Logout', destroy_user_session_path, :method => :delete) %></li>
             </ul>
           </div>
-          <div style="font-size:10px; width:100%; float:right; text-align:right"><%= current_user.first_name %> <%= current_user.last_name %></div>
         <% else %>
           <a href="<%= new_user_session_path %>" class="user"></a>
         <% end %>
       </div>
       <div class="search-box-container">
         <div class="search-box">
-          <div class="top-box"><input type="text" is-auto-complete="1"></div>
+          <div class="top-box">
+            <input type="text" is-auto-complete="1" placeholder="Search for your recipes">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          </div>
           <div class="box-body"></div>
         </div>
       </div>
