@@ -1030,7 +1030,9 @@ background-image: url(<%= asset_path 'arrow_right.png' %>); }
 .page4 .events-container .slider-container {}
 .page4 .events-container .slider-container .entry {
   display: inline-block;
-width: 50%; }
+  width: 50%;
+  padding: 5px;
+}
 .page4 .events-container .slider-container .entry .right {
   float: right;
 width: 92%; }
@@ -1190,7 +1192,7 @@ font-family: "Poppins"; }
   font-size: 14px;
   line-height: 26px;
   font-family: "Poppins";
-max-width: 226px; }
+max-width: 100%; }
 .page4 .interview-container .arrows-container {
   margin-top: 20px;
 padding: 0 15px; }
@@ -1742,7 +1744,7 @@ font-size: 26px; }
   body .footer {
   padding: 20px; }
   body .push-up-180 {margin-top: -50px; }
-  body .push-up-280 {margin-top: -150px; }
+  body .push-up-280 {margin-top: -115px; }
   body .recipes-container {
   padding: 0 20px; }
   body .recipes-container .entry {
@@ -1752,7 +1754,7 @@ font-size: 26px; }
     max-width: 100%;
   padding: 0 20px; }
   body .recipes-container .entry .action-container .action {
-    width: 100%;
+    /*width: 100%;*/
     float: none;
   margin: 10px 5px; }
   body .recipes-container .entry .action-container .delete {
@@ -1785,15 +1787,15 @@ font-size: 26px; }
   body .page2 .ingredients-container {
   padding: 0 10px; }
   body .page2 .ingredients-container .entries-container .entry {
-    float: none;
-  width: 100%; }
+    /*float: none;*/
+  width: 50%; }
   body .page2 .ingredients-container .entries-container .entry .description {
   max-width: 100%; }
   body .page2 .dish-container {
   padding: 0 10px; }
   body .page2 .dish-container .entries .entry {
-    float: none;
-  width: 100%; }
+    /*float: none;*/
+  width: 50%; }
   body .page2 .occasions-container {
     padding-left: 10px;
   padding-right: 10px; }
@@ -2019,5 +2021,8 @@ min-height: 190px; } }
 @media (max-width: 480px) {
   .carousel-inner .item{
     height: calc(100vh - 190px);
+  }
+  .page3 .notes-container .spice .entries .entry{
+    width: 33%;
   }
 }
