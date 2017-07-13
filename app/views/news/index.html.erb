@@ -65,13 +65,15 @@
           <div class="col-md-12 title">Dining out <img style="width:250px;padding-left:20px;" src="<%= asset_path 'roundmenu-logo.png' %>"/></div>
         </div>
         <div class="row">
-          <% @dining_out.each do |entry| %>
-            <div class="entry">
-              <a href="<%= entry. url %>" target="_blank">
-                <img src="<%= entry.image.url %>"/>
-              </a>
-            </div>
-          <% end %>
+          <div class="col-xs-12">
+            <% @dining_out.each do |entry| %>
+              <div class="entry">
+                <a href="<%= entry. url %>" target="_blank">
+                  <img src="<%= entry.image.url %>"/>
+                </a>
+              </div>
+            <% end %>
+          </div>
         </div>
       </div>
     </div>
