@@ -15,6 +15,6 @@ class Admin::ImportController < ApplicationController
     end
 
     Recipe.import(params[:file])
-    redirect_to root_url, notice: "Recipes imported."
+    redirect_to root_path, notice: "Recipes imported."
   end
 end
