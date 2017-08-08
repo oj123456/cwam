@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170625150105) do
+ActiveRecord::Schema.define(version: 20170808073819) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.index ["location"], name: "index_advertisments_on_location", using: :btree
   end
 
   create_table "competitions", force: :cascade do |t|
@@ -35,6 +36,7 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.string   "url"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.index ["slug"], name: "index_competitions_on_slug", using: :btree
   end
 
   create_table "dish_types", force: :cascade do |t|
@@ -47,6 +49,7 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.index ["slug"], name: "index_dish_types_on_slug", using: :btree
   end
 
   create_table "events", force: :cascade do |t|
@@ -70,6 +73,9 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.datetime "image_2_updated_at"
     t.datetime "end_date"
     t.boolean  "on_homepage"
+    t.index ["on_homepage"], name: "index_events_on_on_homepage", using: :btree
+    t.index ["slug", "on_homepage"], name: "index_events_on_slug_and_on_homepage", using: :btree
+    t.index ["slug"], name: "index_events_on_slug", using: :btree
   end
 
   create_table "homepage_images", force: :cascade do |t|
@@ -96,6 +102,9 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
     t.integer  "order",              default: 0
+    t.index ["location", "order"], name: "index_interactive_images_on_location_and_order", using: :btree
+    t.index ["location"], name: "index_interactive_images_on_location", using: :btree
+    t.index ["order"], name: "index_interactive_images_on_order", using: :btree
   end
 
   create_table "interview_questions", force: :cascade do |t|
@@ -105,6 +114,9 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.datetime "created_at",               null: false
     t.datetime "updated_at",               null: false
     t.integer  "order",        default: 0
+    t.index ["interview_id", "order"], name: "index_interview_questions_on_interview_id_and_order", using: :btree
+    t.index ["interview_id"], name: "index_interview_questions_on_interview_id", using: :btree
+    t.index ["order"], name: "index_interview_questions_on_order", using: :btree
   end
 
   create_table "interviews", force: :cascade do |t|
@@ -123,6 +135,9 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.integer  "horizontal_image_file_size"
     t.datetime "horizontal_image_updated_at"
     t.boolean  "on_homepage"
+    t.index ["on_homepage"], name: "index_interviews_on_on_homepage", using: :btree
+    t.index ["slug", "on_homepage"], name: "index_interviews_on_slug_and_on_homepage", using: :btree
+    t.index ["slug"], name: "index_interviews_on_slug", using: :btree
   end
 
   create_table "kitchen_helpers", force: :cascade do |t|
@@ -135,6 +150,7 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.index ["slug"], name: "index_kitchen_helpers_on_slug", using: :btree
   end
 
   create_table "main_ingredients", force: :cascade do |t|
@@ -147,6 +163,7 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.index ["slug"], name: "index_main_ingredients_on_slug", using: :btree
   end
 
   create_table "meal_times", force: :cascade do |t|
@@ -159,6 +176,7 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.index ["slug"], name: "index_meal_times_on_slug", using: :btree
   end
 
   create_table "occasions", force: :cascade do |t|
@@ -171,6 +189,7 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.index ["slug"], name: "index_occasions_on_slug", using: :btree
   end
 
   create_table "place_categories", force: :cascade do |t|
@@ -196,6 +215,10 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.index ["place_category_id"], name: "index_places_on_place_category_id", using: :btree
+    t.index ["place_type"], name: "index_places_on_place_type", using: :btree
+    t.index ["slug", "place_type", "place_category_id"], name: "places_all", using: :btree
+    t.index ["slug"], name: "index_places_on_slug", using: :btree
   end
 
   create_table "press_releases", force: :cascade do |t|
@@ -209,6 +232,7 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.index ["slug"], name: "index_press_releases_on_slug", using: :btree
   end
 
   create_table "recipe_dish_types", force: :cascade do |t|
@@ -216,6 +240,9 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.integer  "dish_type_id"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+    t.index ["dish_type_id"], name: "index_recipe_dish_types_on_dish_type_id", using: :btree
+    t.index ["recipe_id", "dish_type_id"], name: "recipe_dish_types_all", using: :btree
+    t.index ["recipe_id"], name: "index_recipe_dish_types_on_recipe_id", using: :btree
   end
 
   create_table "recipe_kitchen_helpers", force: :cascade do |t|
@@ -223,6 +250,9 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.integer  "kitchen_helper_id"
     t.datetime "created_at",        null: false
     t.datetime "updated_at",        null: false
+    t.index ["kitchen_helper_id"], name: "index_recipe_kitchen_helpers_on_kitchen_helper_id", using: :btree
+    t.index ["recipe_id", "kitchen_helper_id"], name: "recipe_kitchen_helper_all", using: :btree
+    t.index ["recipe_id"], name: "index_recipe_kitchen_helpers_on_recipe_id", using: :btree
   end
 
   create_table "recipe_main_ingredients", force: :cascade do |t|
@@ -230,6 +260,9 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.integer  "main_ingredient_id"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
+    t.index ["main_ingredient_id"], name: "index_recipe_main_ingredients_on_main_ingredient_id", using: :btree
+    t.index ["recipe_id", "main_ingredient_id"], name: "recipe_main_ingredients_all", using: :btree
+    t.index ["recipe_id"], name: "index_recipe_main_ingredients_on_recipe_id", using: :btree
   end
 
   create_table "recipe_meal_times", force: :cascade do |t|
@@ -237,6 +270,9 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.integer  "meal_time_id"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+    t.index ["meal_time_id"], name: "index_recipe_meal_times_on_meal_time_id", using: :btree
+    t.index ["recipe_id", "meal_time_id"], name: "recipe_meal_times_all", using: :btree
+    t.index ["recipe_id"], name: "index_recipe_meal_times_on_recipe_id", using: :btree
   end
 
   create_table "recipe_occasions", force: :cascade do |t|
@@ -244,6 +280,9 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.integer  "occasion_id"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.index ["occasion_id"], name: "index_recipe_occasions_on_occasion_id", using: :btree
+    t.index ["recipe_id", "occasion_id"], name: "recipe_occasions_all", using: :btree
+    t.index ["recipe_id"], name: "index_recipe_occasions_on_recipe_id", using: :btree
   end
 
   create_table "recipe_reviews", force: :cascade do |t|
@@ -252,6 +291,9 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.decimal  "rating"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["recipe_id", "user_id"], name: "recipe_reviews_all", using: :btree
+    t.index ["recipe_id"], name: "index_recipe_reviews_on_recipe_id", using: :btree
+    t.index ["user_id"], name: "index_recipe_reviews_on_user_id", using: :btree
   end
 
   create_table "recipe_spices", force: :cascade do |t|
@@ -259,6 +301,9 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.integer  "spice_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["recipe_id", "spice_id"], name: "recipe_spices_all", using: :btree
+    t.index ["recipe_id"], name: "index_recipe_spices_on_recipe_id", using: :btree
+    t.index ["spice_id"], name: "index_recipe_spices_on_spice_id", using: :btree
   end
 
   create_table "recipes", force: :cascade do |t|
@@ -287,6 +332,10 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.string   "horizontal_image_content_type"
     t.integer  "horizontal_image_file_size"
     t.datetime "horizontal_image_updated_at"
+    t.index ["recipe_of_the_month"], name: "index_recipes_on_recipe_of_the_month", using: :btree
+    t.index ["recipe_of_the_week"], name: "index_recipes_on_recipe_of_the_week", using: :btree
+    t.index ["slug", "recipe_of_the_week", "recipe_of_the_month"], name: "recipes_all", using: :btree
+    t.index ["slug"], name: "index_recipes_on_slug", using: :btree
   end
 
   create_table "seo_data", force: :cascade do |t|
@@ -313,6 +362,7 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
     t.integer  "spice_type"
+    t.index ["slug"], name: "index_spices_on_slug", using: :btree
   end
 
   create_table "user_favorite_recipes", force: :cascade do |t|
@@ -320,6 +370,9 @@ ActiveRecord::Schema.define(version: 20170625150105) do
     t.integer  "recipe_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["recipe_id"], name: "index_user_favorite_recipes_on_recipe_id", using: :btree
+    t.index ["user_id", "recipe_id"], name: "user_favorite_recipes_all", using: :btree
+    t.index ["user_id"], name: "index_user_favorite_recipes_on_user_id", using: :btree
   end
 
   create_table "users", force: :cascade do |t|
