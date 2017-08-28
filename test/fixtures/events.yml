@@ -23,6 +23,7 @@
 #  image_2_updated_at   :datetime
 #  end_date             :datetime
 #  on_homepage          :boolean
+#  show_time            :boolean
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html

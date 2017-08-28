@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170808073819) do
+ActiveRecord::Schema.define(version: 20170828100842) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -73,6 +73,7 @@ ActiveRecord::Schema.define(version: 20170808073819) do
     t.datetime "image_2_updated_at"
     t.datetime "end_date"
     t.boolean  "on_homepage"
+    t.boolean  "show_time"
     t.index ["on_homepage"], name: "index_events_on_on_homepage", using: :btree
     t.index ["slug", "on_homepage"], name: "index_events_on_slug_and_on_homepage", using: :btree
     t.index ["slug"], name: "index_events_on_slug", using: :btree

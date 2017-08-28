@@ -23,6 +23,7 @@
 #  image_2_updated_at   :datetime
 #  end_date             :datetime
 #  on_homepage          :boolean
+#  show_time            :boolean
 #
 
 class Event < ApplicationRecord
@@ -45,6 +46,10 @@ class Event < ApplicationRecord
 
 
   def format_date(date)
-    return date.strftime("%A, %d of %B, %Y starting %I %p")
+    if self.show_time
+      return date.strftime("%A, %d of %B, %Y starting %I %p")
+    else
+      return date.strftime("%A, %d of %B, %Y")
+    end
   end
 end
